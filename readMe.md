@@ -55,6 +55,7 @@ This project simulates the following datasets:
          python -m venv <your_environment_name>
          pip install -r requirements.txt
 2. Docker setup
+
    I composed in my IDE's local terminal with my container running on Docker Desktop. Adjust how this suits you best.
          
          docker compose up airflow-init
@@ -63,6 +64,7 @@ This project simulates the following datasets:
 
          docker compose up
 3. Access Apache Airflow
+
    After your container is running: The Admin Portal is ran through Airflow, accessible on localhost:8080. User: admin, Password: admin. 
 <br>
    <img alt="Apache Airflow Admin Login" height="300" src="airflow_screen.png" width="400"/>
