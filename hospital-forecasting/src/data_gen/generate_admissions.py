@@ -1,10 +1,9 @@
-from pathlib import Path
 import pandas as pd
 import random
 from faker import Faker
 from datetime import datetime, timedelta
+from ..utils.paths import ADMISSIONS_DIR
 import uuid
-BASE_DIR = Path(__file__).resolve().parent.parent.parent
 fake = Faker()
 
 DEPARTMENTS = [
@@ -46,5 +45,5 @@ def generate_patient_admission(n=1000, start_date="2024-01-01", end_date="2024-1
 
 if __name__ == "__main__":
     df = generate_patient_admission(n=1000)
-    df.to_csv(f"{BASE_DIR}/data/admissions/admissions_2025.csv", index=False)
+    df.to_csv(f"{ADMISSIONS_DIR}/admissions_2025.csv", index=False)
     print(f"Generated {len(df)} rows → data/admissions/admissions_2025.csv")
