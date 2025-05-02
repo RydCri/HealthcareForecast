@@ -4,6 +4,7 @@ import importlib
 STEPS = {
     "generate": "src.data_gen.generate_admissions",
     "upload": "src.load.upload_to_gcs",
+    "load_bq": "src.load.load_to_bq",
     # Add more steps like "transform", "load_bq", etc.
 }
 
