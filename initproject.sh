@@ -1,4 +1,7 @@
 #!/bin/bash
+# Shell script example for making your own mock ETL project
+# chmod +x initproject.sh
+# ./initproject.sh
 
 mkdir -p hospital-forecasting/{data/{admissions,procedures,staffing,occupancy},dags,dbt/{models/{staging,marts,snapshots},seeds},notebooks/{eda,forecasting,cost_prediction,classification},src/{data_gen,etl,utils,config},streamlit_app/{pages,components},api/{routes,models},tests}
 
