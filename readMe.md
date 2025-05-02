@@ -1,7 +1,8 @@
 ### Hospital Resource & Cost Forecasting Platform
-Objective:
 <br>
-This project 
+This project simulates how a hospital might use data engineering and ETL pipelines to manage cost forecasts, explore coefficients through data science and handle department queries.
+<hr>
+Objective:
 Forecast hospital resource demand (beds, ICU units, staff) and patient cost using historical data. Provide analytics dashboards and ML-driven insights for hospital administrators.
 
         ┌──────────────┐         ┌────────────────┐
@@ -23,7 +24,7 @@ Forecast hospital resource demand (beds, ICU units, staff) and patient cost usin
                             │ Admin Dashboard │   └───────────────┘
                             └────────────────┘
 
-
+<hr>
 Data Simulation 
 <br>
 This project simulates the following datasets:
@@ -44,3 +45,5 @@ This project simulates the following datasets:
 4. Bed /  ICU Occupancy
    
          | bed_id | dept | patient_id | start_time | end_time | is_ICU |
+
+<hr>
