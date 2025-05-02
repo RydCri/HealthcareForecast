@@ -1,0 +1,1001 @@
+patient_id,admit_date,dept,severity,diagnosis,age,insurance_type
+bf480262-7771-44cb-a160-8dbca3e7f5e9,2024-08-08,ICU,Mild,R07 - Chest Pain,56,Government
+e507f03f-16f4-408b-9cb9-53da087b817c,2024-12-22,Oncology,Severe,C50 - Breast Cancer,62,Government
+391db1d4-58d4-458c-a3a9-58164c93c6e7,2024-03-07,Orthopedics,Moderate,J45 - Asthma,52,Private
+a1df5d63-ac41-4f99-be51-709156e95fc4,2024-09-07,Neurology,Mild,C50 - Breast Cancer,18,Government
+068fc4e2-30bf-41e0-b846-4dfec673cdff,2024-08-25,Cardiology,Mild,C50 - Breast Cancer,38,Private
+a547326c-b572-4f6d-8162-0860cd3ee6d6,2024-01-28,ICU,Moderate,R07 - Chest Pain,86,Government
+c52c0b53-b3a6-4b03-94b6-0b9291464d08,2024-06-09,Orthopedics,Severe,J45 - Asthma,53,Government
+5cfe3a6d-f9ee-4a53-9437-2be4cabf27c2,2024-09-22,Emergency,Moderate,R07 - Chest Pain,44,Private
+d5434082-abb0-4209-8dab-2dd9534e3a00,2024-10-26,Oncology,Moderate,C50 - Breast Cancer,11,Private
+552074d6-333d-4d37-92ce-a5a529ec3fa1,2024-02-18,Neurology,Moderate,R07 - Chest Pain,35,Government
+437a0ccb-ff25-4371-8889-5bdb827388e4,2024-06-13,Cardiology,Moderate,E11 - Type 2 Diabetes,22,Government
+26de61bc-58db-40f1-a232-27a8e628d52c,2024-06-18,Emergency,Mild,I10 - Hypertension,68,Private
+7cc31e12-8a9c-4346-9b90-56245af2b643,2024-09-07,ICU,Mild,C50 - Breast Cancer,9,Government
+b16b538d-f229-4b03-ba8a-6c2a9a449468,2024-11-14,Orthopedics,Mild,I10 - Hypertension,99,Government
+11bc1548-68f0-49e6-a8fe-ab4fbf375ca7,2024-02-18,Cardiology,Mild,E11 - Type 2 Diabetes,64,Government
+e2de61ce-52ab-4956-9435-5285f7c5fca5,2024-05-18,Oncology,Mild,S72 - Hip Fracture,45,Private
+a4622ef2-e850-49cc-a330-260cdbed40a0,2024-12-24,Cardiology,Moderate,S72 - Hip Fracture,7,Private
+ad3f5078-630c-46cd-90f0-89ddfa5626e5,2024-07-09,Emergency,Moderate,R07 - Chest Pain,97,Government
+087106a8-1d38-4423-a75d-9760477a720d,2024-12-11,Oncology,Mild,I10 - Hypertension,75,None
+67befbec-a808-43af-bd1c-9380c17decbc,2024-11-11,Orthopedics,Moderate,I10 - Hypertension,21,Government
+5b742370-8bd3-46db-bb52-a2d75f8f3a82,2024-12-26,Pediatrics,Moderate,C50 - Breast Cancer,15,Government
+5552e54a-fb86-4c93-bb1e-a486d804953d,2024-03-30,Neurology,Moderate,J45 - Asthma,97,Government
+14030471-b4b7-4fc2-84de-6cfa1b26f860,2024-03-18,Oncology,Severe,C50 - Breast Cancer,29,Private
+f6376d7c-a7a9-4b96-8ca4-f9c103a40e4b,2024-01-09,ICU,Mild,E11 - Type 2 Diabetes,91,Private
+af040db4-acce-49b4-bc8c-b4f5a75847b6,2024-06-29,ICU,Mild,S72 - Hip Fracture,73,None
+6ecad071-d585-4f27-b174-48d57a4ded25,2024-06-28,Cardiology,Moderate,J45 - Asthma,37,Government
+21efb570-21f6-4ef5-a2b2-33d59cfdb2f3,2024-05-02,Cardiology,Mild,K21 - GERD,19,Private
+d5ed1613-739c-46d5-80e2-fb2f75cc2d2e,2024-12-16,Orthopedics,Moderate,R07 - Chest Pain,51,Government
+465cc2f6-b4a9-4c34-86f5-f1253cab53a3,2024-01-16,Pediatrics,Mild,R07 - Chest Pain,29,Private
+6738a4d4-f527-4491-87de-25cd7db1f388,2024-08-20,ICU,Moderate,C50 - Breast Cancer,97,Private
+a9c1cb2a-338a-44dd-af0f-7c5ab6b29900,2024-10-29,Pediatrics,Mild,E11 - Type 2 Diabetes,29,Government
+d3b922f5-ba72-44be-98d2-5286c6cb7641,2024-10-08,Emergency,Mild,E11 - Type 2 Diabetes,99,Private
+efe642ea-dc54-4252-b0ef-4655ec885422,2024-04-12,Orthopedics,Severe,I10 - Hypertension,59,Government
+509ac5f2-97ec-479f-88a0-b6fb02d89b8b,2024-09-14,Emergency,Mild,R07 - Chest Pain,93,Government
+63b0716e-994f-436b-9c95-7aea824bde9c,2024-11-17,Emergency,Mild,K21 - GERD,9,Government
+57e0aa26-a487-44f0-9064-e82e6832fc3a,2024-04-14,Oncology,Mild,S72 - Hip Fracture,98,Government
+1a7cae07-6d33-47d7-995b-9ca4e8522a1d,2024-12-14,ICU,Severe,E11 - Type 2 Diabetes,29,Government
+6ff0e1df-e9a3-4f97-b444-37858bf11db8,2024-03-24,Pediatrics,Severe,C50 - Breast Cancer,40,Government
+2a95abcd-647f-4945-84b1-c2c3329226e7,2024-10-28,Cardiology,Mild,E11 - Type 2 Diabetes,16,Government
+c5aedd10-7947-493a-a65f-ba6bf6e7cc4b,2024-02-28,Neurology,Mild,E11 - Type 2 Diabetes,64,Government
+60a9b0c3-5d42-479a-996a-efc62c686f04,2024-01-06,Emergency,Mild,I10 - Hypertension,43,Government
+aa17a1dc-dc7f-424f-8b95-eeac098c2c0d,2024-12-06,Oncology,Mild,R07 - Chest Pain,93,Private
+0b581014-02ab-40f5-89fc-ddab64b0994b,2024-01-31,Emergency,Mild,S72 - Hip Fracture,4,Government
+534001c9-71e7-4d2c-8a91-41389c4870ac,2024-01-09,Oncology,Mild,E11 - Type 2 Diabetes,45,Government
+a627ab8a-6dfa-43a3-a474-563dc1857d1e,2024-07-04,Emergency,Mild,C50 - Breast Cancer,28,Government
+aef9ad02-2890-4c54-bd40-9b4090730edf,2024-02-06,Pediatrics,Moderate,E11 - Type 2 Diabetes,18,Private
+7533ea6e-9960-46ce-bec8-a828d943a611,2024-11-15,Oncology,Mild,J45 - Asthma,49,Government
+fda3d6dd-d3eb-4d9b-b9f6-59fcf8bd6f61,2024-12-06,Oncology,Moderate,I10 - Hypertension,52,Government
+3556e59f-f947-4930-8475-2170cc304f5c,2024-09-09,Pediatrics,Severe,I10 - Hypertension,67,Government
+b6ff1706-e341-4b1a-b52d-e2f31d9310d6,2024-04-16,Cardiology,Mild,I10 - Hypertension,74,Government
+1262531b-1920-44a9-8d3a-7799aac5389a,2024-07-27,Oncology,Severe,K21 - GERD,56,Private
+873d8b96-3ad6-47db-ab9f-195f908d406c,2024-05-27,ICU,Severe,C50 - Breast Cancer,34,Government
+87c14168-0333-47e5-bb9a-d88ae42ada4b,2024-04-14,Pediatrics,Mild,S72 - Hip Fracture,20,Government
+c8278eef-84b6-4fa0-b63f-198034e81d37,2024-10-30,Pediatrics,Mild,K21 - GERD,82,Private
+ba4c3a6c-c9fe-4ac9-88a3-9a08e83b1f19,2024-09-12,ICU,Mild,J45 - Asthma,16,Private
+720ad5c4-c81a-4eb1-aca2-92364c36cd72,2024-07-02,Orthopedics,Severe,R07 - Chest Pain,18,Government
+49103bf3-61da-42bc-9650-fc3a5cd8737b,2024-12-11,Oncology,Moderate,J45 - Asthma,40,Private
+015dfa61-83e7-4e14-af25-f18445af3f89,2024-08-26,Pediatrics,Mild,K21 - GERD,45,Government
+b1f1c3bc-1a0c-42f3-9dcf-27d96f8a7b6d,2024-04-23,Oncology,Severe,E11 - Type 2 Diabetes,82,Government
+06840c0d-a254-4468-89b4-75d9ffa60961,2024-02-09,Cardiology,Moderate,R07 - Chest Pain,78,Government
+72a5c996-cd38-4f52-8c35-246c57ebfe89,2024-11-19,Neurology,Moderate,C50 - Breast Cancer,42,Government
+735284c1-aa4a-4995-809e-a18241ac4ff6,2024-10-06,Neurology,Moderate,K21 - GERD,70,None
+a86962f9-a8f4-4adb-aa3d-75cf76bfc6b7,2024-07-30,Pediatrics,Mild,K21 - GERD,37,Government
+4f96e56a-552d-4ead-9241-8845af180f4a,2024-06-17,Pediatrics,Mild,R07 - Chest Pain,12,Private
+6970bd60-1865-4962-8424-3e1433585b26,2024-01-27,Cardiology,Mild,J45 - Asthma,65,Government
+95887b7e-a6ab-42ad-b48b-5bd7521faf51,2024-12-19,Emergency,Moderate,C50 - Breast Cancer,89,None
+424afcf6-3abb-4c94-bd89-d5c79ec22b7b,2024-05-21,Neurology,Moderate,R07 - Chest Pain,45,Government
+5b9660c9-1156-4401-8ec3-a968f9b7fad5,2024-05-07,Pediatrics,Mild,I10 - Hypertension,84,Private
+870d24d3-7262-435a-90b0-6bc7b0496927,2024-07-19,Orthopedics,Mild,C50 - Breast Cancer,38,Private
+57b987d5-072d-4016-959c-477aba296c8e,2024-07-14,Emergency,Moderate,S72 - Hip Fracture,37,Government
+de489c0d-1a50-418f-b1a2-bab671843905,2024-05-23,Pediatrics,Mild,J45 - Asthma,27,Government
+4b5b62ed-32ee-4915-895b-5158c52bb413,2024-09-09,Emergency,Severe,I10 - Hypertension,6,Government
+0ea6c798-94eb-4e3f-b894-579401f200b9,2024-12-31,Cardiology,Severe,J45 - Asthma,18,Private
+0bec8d7c-244e-461f-9632-f152c3bae72d,2024-08-03,Cardiology,Mild,E11 - Type 2 Diabetes,6,Private
+77581ec9-268e-4359-b825-ba7bcdbe594f,2024-08-17,Oncology,Moderate,E11 - Type 2 Diabetes,16,Private
+542cc261-4ded-4d03-aa93-576c6864871a,2024-03-16,Cardiology,Moderate,R07 - Chest Pain,96,Government
+5f380236-deb3-4f6a-8611-87d428696935,2024-08-19,Pediatrics,Mild,J45 - Asthma,10,Private
+f9e7c83c-6a70-44c3-9444-d3332816f0e7,2024-04-21,Cardiology,Severe,E11 - Type 2 Diabetes,39,Government
+deb7faf9-36cb-4bce-98f9-25baf92b2274,2024-02-02,Cardiology,Moderate,E11 - Type 2 Diabetes,89,Government
+96bca51f-71ea-48e9-bd2e-a32c395889c4,2024-02-02,Emergency,Moderate,K21 - GERD,17,Government
+720ab3d6-ab4e-4fca-8421-cff2344d3f7a,2024-11-07,Pediatrics,Moderate,K21 - GERD,39,None
+fb17a292-beab-452c-b2b9-7f6bbe626e93,2024-09-04,Cardiology,Mild,I10 - Hypertension,20,Government
+c9e3589f-5e4e-4591-a26c-93e9a1a31ba6,2024-03-07,Pediatrics,Mild,J45 - Asthma,74,None
+78d86cf7-af2e-4e3c-af3c-a057cb6fab07,2024-01-22,Emergency,Mild,K21 - GERD,67,Government
+d69a316e-5e2e-4da0-9ac8-1fdb8594f17a,2024-01-12,ICU,Mild,J45 - Asthma,78,Government
+5098eb77-603c-4583-ae15-5b112d8b04f3,2024-06-07,Emergency,Mild,R07 - Chest Pain,59,Private
+c9552ae4-ea6d-46f0-a32f-017ee5c198fe,2024-05-29,Neurology,Moderate,S72 - Hip Fracture,48,None
+5eb8fa6a-96a6-4306-94d3-96f997d6e748,2024-11-13,ICU,Mild,J45 - Asthma,85,Government
+7e5e3c18-dfd0-4347-b473-5607c183d8aa,2024-07-11,Oncology,Mild,I10 - Hypertension,90,Government
+7954ad9d-18cc-42f5-8c15-49ce1137cc1e,2024-12-06,ICU,Severe,E11 - Type 2 Diabetes,58,Government
+c85df504-38e2-4af3-8b5b-96e4661361ff,2024-06-27,Emergency,Moderate,C50 - Breast Cancer,68,Government
+b3feb7bf-55f7-4458-940f-9acfbf9334c9,2024-06-17,Orthopedics,Moderate,E11 - Type 2 Diabetes,91,Government
+182378d4-9307-4baa-8c27-7c86c4133bba,2024-07-01,ICU,Moderate,K21 - GERD,13,Government
+9a01740f-728b-4626-8e79-cba07b29fd2c,2024-07-23,Emergency,Moderate,S72 - Hip Fracture,84,Government
+4f805a78-0cc0-4d22-8a04-83ab01d981da,2024-04-24,Oncology,Moderate,K21 - GERD,20,Private
+2cc85676-0fee-4044-a0dd-44f03caa1199,2024-03-26,Emergency,Severe,C50 - Breast Cancer,48,Government
+3a1a12e2-e820-49ef-89e0-a52bfc03f87f,2024-05-08,Orthopedics,Moderate,R07 - Chest Pain,48,Government
+c5ecbf63-be69-4650-9ba0-96cedde8e4d2,2024-04-19,Neurology,Severe,S72 - Hip Fracture,20,Government
+e7c6dfbb-ca0d-48fe-aa13-4da5da44b3ff,2024-09-13,Neurology,Severe,R07 - Chest Pain,97,Government
+5b00d818-2722-4730-ac94-7bfcc90ff05c,2024-11-06,Oncology,Moderate,I10 - Hypertension,88,None
+e09acb6d-7844-4252-84d3-2f38c8f387ac,2024-07-14,ICU,Mild,E11 - Type 2 Diabetes,66,Government
+447dcb51-5dde-470b-b199-c96b29df359b,2024-08-12,Neurology,Mild,J45 - Asthma,29,Private
+1ba43923-bb93-41a4-8140-2e2eb8414db3,2024-01-07,Neurology,Mild,I10 - Hypertension,7,Government
+85d42314-3eb5-4fad-a96b-ff9918f92642,2024-02-12,Neurology,Severe,C50 - Breast Cancer,90,Government
+1def8471-734e-42be-94d0-ffab6de08a4e,2024-02-02,Emergency,Severe,R07 - Chest Pain,23,None
+5734f699-1852-4867-b4aa-088b1873bfde,2024-08-25,Oncology,Mild,R07 - Chest Pain,79,Private
+c9fbf658-a4c6-4948-9036-be4ec72bad03,2024-09-21,Oncology,Moderate,K21 - GERD,13,Government
+3058ff37-f4f7-4f22-bae8-c8b28b941cd3,2024-03-01,Oncology,Moderate,J45 - Asthma,87,Private
+53e35ed8-7936-4dd0-88b7-a2e47c22518a,2024-10-22,Orthopedics,Mild,J45 - Asthma,87,Government
+3b381cea-49ab-4b19-98f1-aa13d269fa07,2024-04-14,Cardiology,Mild,J45 - Asthma,21,Government
+9e982941-704d-4fb0-bd87-682a767bc3a9,2024-03-30,ICU,Mild,E11 - Type 2 Diabetes,10,Private
+a3cc8d21-2fc8-484b-8c9b-3ab67299651c,2024-03-06,Oncology,Severe,R07 - Chest Pain,52,Government
+ae11c487-6c07-4923-b754-22aec1f871b4,2024-05-11,Neurology,Moderate,R07 - Chest Pain,29,Government
+0be2db4f-152d-4012-83e6-500b9d9e7b54,2024-10-14,Emergency,Severe,C50 - Breast Cancer,40,Government
+fba3b49e-566b-4846-8420-dc6443ee763a,2024-01-27,ICU,Severe,R07 - Chest Pain,73,Government
+db4ea50e-eb8b-4d6f-8376-082abfd50c25,2024-04-01,Pediatrics,Moderate,E11 - Type 2 Diabetes,89,Government
+a294c3e7-6017-4b85-926a-c991dc76425a,2024-02-02,Oncology,Moderate,K21 - GERD,11,Private
+57bad2cf-a871-4f88-8856-9f0457323849,2024-11-13,Pediatrics,Severe,I10 - Hypertension,85,Private
+516cff04-a487-4a27-a904-6520fe3eecc7,2024-01-29,Orthopedics,Mild,K21 - GERD,24,None
+2bfa3454-3954-4dfc-97d4-c5d4c3ca95f3,2024-02-23,Neurology,Mild,R07 - Chest Pain,94,Government
+af5d6557-07fd-4378-9777-dffb3c41771f,2024-03-28,Emergency,Moderate,R07 - Chest Pain,49,Private
+3af68eeb-8a6e-48d5-988f-42d3aacdb11f,2024-10-13,Emergency,Moderate,J45 - Asthma,66,Private
+f9a318d4-1fce-45a1-a398-acaf59721906,2024-09-21,Orthopedics,Mild,R07 - Chest Pain,73,None
+01e75dab-ec7b-4884-9e1a-b84951a59de6,2024-02-28,Emergency,Mild,E11 - Type 2 Diabetes,6,Government
+5e063b77-5e6f-460e-89c5-a703eab59c7b,2024-02-09,Oncology,Moderate,S72 - Hip Fracture,22,Government
+5832f441-212e-4724-94bb-8acab9f60d11,2024-05-08,Neurology,Moderate,E11 - Type 2 Diabetes,3,Government
+4d9ada66-a784-4f42-9f6e-0654337e2372,2024-04-10,Neurology,Severe,E11 - Type 2 Diabetes,72,Private
+d28be8ab-9ed5-40d3-af32-9ab28e5a046e,2024-04-29,Neurology,Mild,R07 - Chest Pain,20,Government
+0d4b39c9-710d-4a25-9f31-48ef9d4d296c,2024-09-22,Orthopedics,Moderate,C50 - Breast Cancer,3,Government
+d2953142-d4e0-4d09-a28c-c8053693a9b1,2024-10-15,ICU,Mild,K21 - GERD,66,Private
+8df6ee19-a02f-4a47-9c57-e3f3feffe20c,2024-03-26,Oncology,Mild,I10 - Hypertension,77,Government
+739267d1-1b83-4237-9f9e-fd4ee8db74a4,2024-12-08,Neurology,Mild,I10 - Hypertension,29,Government
+02aa8c96-67a5-4d53-8229-0b36a89b1d26,2024-10-24,Pediatrics,Moderate,S72 - Hip Fracture,47,Government
+2463ebbc-8f81-48fa-8f05-aa6523d5c998,2024-06-21,Cardiology,Mild,I10 - Hypertension,88,Private
+1342857a-b4ba-484b-90ea-8e3f3c123262,2024-08-08,Oncology,Severe,J45 - Asthma,18,Government
+74cd9008-4585-4c94-a9ef-fadfffe5fbe7,2024-03-09,Cardiology,Moderate,E11 - Type 2 Diabetes,26,Government
+27f0aec4-9534-4e4a-bb28-e15fbe7ad0b3,2024-11-30,ICU,Moderate,R07 - Chest Pain,18,Private
+dbb4d2ed-3b1d-4853-8572-1448de27346b,2024-10-31,Emergency,Mild,E11 - Type 2 Diabetes,39,Government
+6e2877f8-4416-4c1d-9ed9-15faaa8b86bb,2024-04-20,Orthopedics,Mild,S72 - Hip Fracture,66,Government
+84634570-5f8d-46f5-b718-92d487c321a8,2024-10-17,Emergency,Mild,I10 - Hypertension,41,Government
+bdcf94d6-08cc-465d-ac9e-52dd2334c43c,2024-10-16,Oncology,Mild,R07 - Chest Pain,74,None
+e58fcc24-c5fe-4907-9a1b-2a5f5dfc188a,2024-12-07,Pediatrics,Mild,I10 - Hypertension,36,Government
+845be57e-f9e7-498f-83f5-689bd98c7e81,2024-09-27,Neurology,Moderate,K21 - GERD,58,Government
+c6ee80cb-cca3-455d-85bb-18449c13390a,2024-06-29,Cardiology,Severe,J45 - Asthma,84,None
+83da9635-4513-46d7-be01-f88b6e073adb,2024-09-03,Cardiology,Moderate,R07 - Chest Pain,43,Private
+4c3ca383-4267-4d55-8a6b-d4ffd34967fe,2024-02-02,Cardiology,Severe,R07 - Chest Pain,32,Government
+f05e0358-5e4b-47bf-9d97-f3790b81ee0f,2024-12-17,Oncology,Mild,S72 - Hip Fracture,93,Government
+ac420b51-94bc-4a75-9e6f-fca9fed6475d,2024-06-22,Pediatrics,Mild,C50 - Breast Cancer,7,Government
+ea89fb11-c773-41e0-9110-007d4f67eb6c,2024-12-04,Emergency,Moderate,R07 - Chest Pain,39,None
+bad5b44a-5e50-4f04-adea-2a87f2c4be8a,2024-06-23,Neurology,Moderate,I10 - Hypertension,66,Government
+9267a0f3-001e-4290-9988-32d75474ffd1,2024-09-15,Neurology,Moderate,J45 - Asthma,32,Government
+7ca8ac07-a50c-441d-8934-96626e9f8a75,2024-12-11,Orthopedics,Mild,E11 - Type 2 Diabetes,48,Government
+c4a70abf-7c69-422b-b8f6-92ce5d4f3f3a,2024-01-01,Emergency,Severe,E11 - Type 2 Diabetes,47,Government
+854a6c5a-e9b3-457a-8981-8658b87226ee,2024-09-08,Pediatrics,Mild,C50 - Breast Cancer,75,Government
+1c236cb3-b7b8-43ea-9ed3-37cebeff2ff3,2024-07-25,Oncology,Moderate,K21 - GERD,67,Private
+a9266173-af13-4e70-9db6-e577edce7bf9,2024-07-24,Pediatrics,Mild,K21 - GERD,40,Government
+33df3821-4b40-49ff-bc0e-7145b959d0d2,2024-05-09,Orthopedics,Mild,S72 - Hip Fracture,65,Government
+f2b7697c-6151-4c77-b444-5c54e336f2ad,2024-07-14,Oncology,Mild,K21 - GERD,31,Government
+ce7e2225-b5d0-49a7-9755-8df1c7b73ed0,2024-11-09,Neurology,Moderate,K21 - GERD,90,Government
+cf78991d-d104-4486-bd0f-074ab3462d61,2024-04-20,Neurology,Mild,C50 - Breast Cancer,39,Government
+1a055a43-1e9d-40a1-b726-0926f835126d,2024-07-21,ICU,Mild,E11 - Type 2 Diabetes,35,Government
+022d1ac2-b26a-4887-a0db-3fc937ef8a07,2024-09-16,ICU,Severe,J45 - Asthma,42,Private
+c7a01f3d-8e7c-4029-844f-d7b54e00f0d7,2024-09-05,Orthopedics,Mild,J45 - Asthma,58,Private
+7bc65216-01d4-43a7-b227-ce79b2de5128,2024-01-13,Pediatrics,Mild,K21 - GERD,96,Government
+a24b47a2-e8c9-4456-ac2b-d4bcc73ad88b,2024-05-27,Emergency,Mild,I10 - Hypertension,7,Government
+be3d227f-0979-4d85-9d36-7978769dbc92,2024-10-07,Pediatrics,Mild,E11 - Type 2 Diabetes,4,Government
+0b1ef3bc-5713-416e-b0b0-ae552571f6ff,2024-11-25,Pediatrics,Mild,S72 - Hip Fracture,54,None
+00b98f4d-617f-41e6-87a4-e6c0675da6b6,2024-02-06,Cardiology,Mild,J45 - Asthma,46,Government
+ae31db16-e470-41b6-95a0-19b00ae08877,2024-03-21,Pediatrics,Mild,S72 - Hip Fracture,23,Private
+55070d38-6fc6-42fd-b5dd-abcc2bc110b1,2024-01-27,Oncology,Moderate,J45 - Asthma,25,Private
+9ae68a8d-eeb1-4731-8fea-0957c8bd3b46,2024-10-03,Emergency,Mild,R07 - Chest Pain,90,Private
+fce0deb5-ecd9-4236-9901-d21765ebd8b0,2024-07-13,Emergency,Mild,K21 - GERD,57,Government
+1a7e0632-7255-49bc-8a66-e07c0c091fb1,2024-03-08,Orthopedics,Severe,J45 - Asthma,91,Government
+c0d9a382-9f80-45f0-bd36-e78fc7d4f16b,2024-07-24,Pediatrics,Mild,K21 - GERD,99,Private
+4cff9ead-b591-40ea-b213-f1794f3ca209,2024-07-31,Pediatrics,Mild,I10 - Hypertension,24,Government
+9e9cd58c-4bdd-4e98-b903-073a290483bf,2024-05-26,Emergency,Mild,C50 - Breast Cancer,67,Government
+32fbcc7b-8e16-4483-a762-f73a34c22185,2024-04-25,ICU,Severe,K21 - GERD,32,Government
+ebc20ce5-9683-415c-984b-398384dde6ba,2024-11-30,Emergency,Mild,R07 - Chest Pain,33,Government
+d8f04929-df4e-4590-91d7-f754a37a6b42,2024-03-16,Cardiology,Mild,R07 - Chest Pain,70,Government
+057c58fc-a93f-4c53-84f2-88e03dc5b80b,2024-10-09,Neurology,Moderate,J45 - Asthma,35,Government
+c3cf2f3b-cbc0-4835-a1d9-0a59bfc2a801,2024-04-06,ICU,Mild,I10 - Hypertension,38,Government
+ce8821cc-0179-4428-868a-82097407f190,2024-02-20,Neurology,Mild,R07 - Chest Pain,37,Government
+57e532a7-ffae-4a6a-9673-51ac43f398eb,2024-02-23,Orthopedics,Moderate,E11 - Type 2 Diabetes,56,Government
+fe179326-80c1-4dcb-8d30-9a9d4c165c9c,2024-04-11,Oncology,Mild,K21 - GERD,19,Government
+3c1d68ea-e351-4add-859b-d271578a7717,2024-10-04,Oncology,Moderate,J45 - Asthma,13,Government
+06dfedfb-5129-4f25-a5bf-41d6e26c38b0,2024-01-16,Oncology,Mild,E11 - Type 2 Diabetes,2,Government
+eec49e07-474f-4ec3-9848-bb36287c445d,2024-02-02,Oncology,Moderate,J45 - Asthma,78,Private
+e103a4c2-8474-40dc-938a-a54e3f66c306,2024-07-17,Orthopedics,Moderate,C50 - Breast Cancer,92,Government
+9043f32e-7052-4d91-b64d-93d90e8b49c3,2024-06-12,Oncology,Mild,K21 - GERD,24,Government
+fc638f82-2ab6-4fc7-921b-20f4f17442da,2024-02-15,Neurology,Moderate,R07 - Chest Pain,88,Private
+fe5e0307-56b0-4c47-908b-86b6e247025f,2024-02-24,Neurology,Moderate,C50 - Breast Cancer,13,Private
+1dcf5455-114b-4dda-9fae-cf9697bac158,2024-07-02,Oncology,Mild,R07 - Chest Pain,66,None
+3ea3dbf6-15ce-4e7d-a00f-49cf5e93dc70,2024-12-05,Pediatrics,Mild,I10 - Hypertension,2,Private
+5c001c3c-4784-4504-a0e7-3693e24983bf,2024-06-07,Neurology,Moderate,J45 - Asthma,92,Private
+969fc653-36ec-4615-9e6c-89e57e53bd9b,2024-01-09,Pediatrics,Mild,R07 - Chest Pain,1,Government
+064486c1-ad09-41f3-b06a-ea98c3048e23,2024-07-09,Emergency,Moderate,S72 - Hip Fracture,81,Private
+138864ab-e43a-4d4e-901a-ae2fa07d95ea,2024-10-25,Orthopedics,Moderate,I10 - Hypertension,22,Government
+96ed381d-f3ba-4260-a573-5bb3ec2c4ebc,2024-11-08,Cardiology,Severe,R07 - Chest Pain,23,Government
+967409f2-213c-4e15-8db2-6ea5469f2ff6,2024-11-04,ICU,Mild,R07 - Chest Pain,95,Private
+9371d605-9f4e-42e5-8c75-75b99ba79e1f,2024-12-25,Emergency,Mild,I10 - Hypertension,89,Government
+26f3c21a-a90a-4532-afae-d83935bf6744,2024-04-18,Emergency,Moderate,J45 - Asthma,75,Government
+461fae49-3a60-4ae6-b957-a18ae91f101f,2024-10-06,ICU,Moderate,S72 - Hip Fracture,83,Government
+deec68a6-8132-4126-b839-5e33e6dced24,2024-03-19,Emergency,Mild,J45 - Asthma,8,Government
+1e6eacfe-154a-4f6d-aa03-9954c0e79a49,2024-06-17,ICU,Moderate,C50 - Breast Cancer,51,Private
+54beb5c5-dcce-4540-82ba-f0657c740881,2024-02-11,Oncology,Severe,J45 - Asthma,9,Government
+0c628858-c4f9-4367-bd70-de816df682f9,2024-08-16,Cardiology,Mild,I10 - Hypertension,39,Government
+72121e82-86d2-49d1-b697-a213a37b8787,2024-12-08,Orthopedics,Moderate,E11 - Type 2 Diabetes,48,None
+ff291a01-8cf6-4b91-a017-b9a5f4189e5e,2024-08-16,Cardiology,Mild,R07 - Chest Pain,50,None
+2dafb136-b505-492c-995e-8f26643713e2,2024-08-03,Emergency,Moderate,J45 - Asthma,72,Private
+06663e67-b1e6-42fc-a5dd-6a51faa0f001,2024-07-20,Pediatrics,Moderate,I10 - Hypertension,95,Government
+5ec4d5e3-0b3d-4ea6-b3b6-53bd2c515d3b,2024-09-18,ICU,Moderate,S72 - Hip Fracture,92,Government
+0e2cf4a7-3711-4e3a-88d1-8a927e8812ae,2024-02-08,Pediatrics,Mild,S72 - Hip Fracture,35,Government
+31808bde-160b-4618-b98b-6c3e50b6de3b,2024-03-10,Pediatrics,Mild,I10 - Hypertension,51,Government
+014abf7f-42a9-4a75-b4ae-7d3293493b5b,2024-08-22,Orthopedics,Moderate,S72 - Hip Fracture,89,None
+c104a5eb-7d0e-408a-b760-01b8f8b79d6d,2024-03-18,Pediatrics,Mild,S72 - Hip Fracture,81,Private
+bb929229-a1de-425a-b5dd-0ce10796cf01,2024-05-03,Emergency,Moderate,K21 - GERD,13,None
+056ea28b-5a15-424f-a1af-28ad76e16d2d,2024-07-24,Neurology,Moderate,R07 - Chest Pain,56,Government
+7d72633b-4eba-49c5-9070-ae0544b0345e,2024-07-07,Emergency,Moderate,E11 - Type 2 Diabetes,2,Government
+07907c75-95e8-47f9-8640-8519d6e91255,2024-02-29,Pediatrics,Mild,C50 - Breast Cancer,28,Private
+7956e022-6c4d-4b99-ac39-62b6316aea53,2024-04-07,Pediatrics,Moderate,S72 - Hip Fracture,19,Private
+643bb736-4cf0-42c5-91de-93015765b076,2024-11-28,Orthopedics,Severe,C50 - Breast Cancer,24,Government
+b2ede289-6eee-45cd-939d-701820fc6dbc,2024-12-25,Oncology,Moderate,J45 - Asthma,23,None
+5ce775f5-0328-4332-8b4d-f8448e8d9485,2024-03-30,Cardiology,Severe,C50 - Breast Cancer,38,Government
+2dd83ad0-a2bc-4c2f-87cc-be8016841560,2024-10-28,Neurology,Mild,C50 - Breast Cancer,27,Government
+9b3991de-4645-4649-837c-b02a4cea833d,2024-05-18,Orthopedics,Severe,K21 - GERD,17,Private
+d12c4e6e-ef22-4d1e-b1ac-1bb29ae0863d,2024-04-22,ICU,Moderate,K21 - GERD,35,Government
+7be69b74-bc84-43f7-9f8f-f61d114ae336,2024-03-02,Pediatrics,Moderate,E11 - Type 2 Diabetes,72,Government
+998ef844-40cb-41f1-8325-0c1ab371a9d4,2024-03-04,Pediatrics,Mild,R07 - Chest Pain,46,Private
+4518f406-eac5-40a7-a712-78fbabaf60ee,2024-11-08,Oncology,Mild,K21 - GERD,10,Government
+967b2afd-b9f0-4544-b47b-545bd7627fb6,2024-07-12,Neurology,Moderate,R07 - Chest Pain,81,Private
+9f3a8e79-6b97-4858-b367-2f2e1e4d027e,2024-03-13,Orthopedics,Moderate,S72 - Hip Fracture,27,Government
+2ae2e22a-0a40-4708-95b0-6be151484c8e,2024-03-31,Neurology,Mild,S72 - Hip Fracture,71,Private
+df84419a-3c75-41ae-bede-95ca0cdf6b68,2024-06-24,Neurology,Moderate,C50 - Breast Cancer,80,Private
+3378f701-33b2-43ef-a4e7-04989c9edd7f,2024-03-27,Pediatrics,Mild,C50 - Breast Cancer,83,Government
+52ceef1e-46c1-4716-8b8a-6ae61fe0446b,2024-02-09,ICU,Moderate,I10 - Hypertension,23,Government
+7a9b4194-f9fa-4711-a607-b0ea28df0057,2024-04-29,ICU,Moderate,S72 - Hip Fracture,7,Government
+ff429fb8-fbdb-4a83-9526-f25e00725881,2024-05-04,Cardiology,Mild,E11 - Type 2 Diabetes,20,Private
+1d8e206e-ecba-42f5-abfe-0f95b2cd56c9,2024-05-18,ICU,Mild,S72 - Hip Fracture,88,Private
+e5cfe2b0-33f9-4143-8608-33ea54de02e3,2024-11-01,Cardiology,Mild,I10 - Hypertension,32,Government
+22dcfbc7-5f50-490a-a600-5ad6d353fb99,2024-02-02,Emergency,Moderate,K21 - GERD,49,Private
+4d527fc0-e8e6-4cff-98b8-5918b1bbac77,2024-02-16,Pediatrics,Severe,E11 - Type 2 Diabetes,77,None
+0a6290c6-4155-4107-88e0-e490fc041f8f,2024-01-14,ICU,Moderate,I10 - Hypertension,97,Private
+2c1ba936-3bbf-4130-840b-a798937b084a,2024-06-26,Cardiology,Mild,C50 - Breast Cancer,19,Government
+70e99da3-24cd-4708-94ce-4d631a913991,2024-02-17,Orthopedics,Mild,C50 - Breast Cancer,41,Government
+fec0f442-4377-4ae6-b3b8-d3cd84468c48,2024-11-01,Pediatrics,Mild,R07 - Chest Pain,32,Government
+03511aa5-4527-4dc3-8da1-fcc1ead4e3aa,2024-03-29,ICU,Moderate,K21 - GERD,11,Government
+f560825a-04da-48c2-934c-c5788705ae26,2024-01-07,Neurology,Moderate,I10 - Hypertension,28,Private
+52bff240-73b5-4853-b478-9a7c4ca38b71,2024-03-16,Cardiology,Mild,E11 - Type 2 Diabetes,46,Government
+02d7257b-26ac-4329-8818-587bd0880c18,2024-07-19,Orthopedics,Moderate,R07 - Chest Pain,62,Government
+cec897b2-bec7-4784-8f6c-6d4110fb0fc7,2024-10-25,Cardiology,Moderate,E11 - Type 2 Diabetes,62,Government
+7ef6c6f0-fc31-4575-bbba-503a0f4b4d0a,2024-11-21,ICU,Severe,K21 - GERD,19,Government
+3f5b23ff-20b1-4b7c-9289-aac395dfad40,2024-11-17,Pediatrics,Mild,I10 - Hypertension,73,Government
+f9765009-bf1e-4400-b31b-62e5c4a770cd,2024-11-09,Oncology,Severe,I10 - Hypertension,98,Government
+f7fb5146-bc67-4813-a41f-7cdf772d1b32,2024-09-25,Oncology,Mild,I10 - Hypertension,18,Government
+62606aa9-22cf-4c8b-a014-26f983833684,2024-06-12,Neurology,Mild,S72 - Hip Fracture,21,Government
+c62d80ea-a007-4725-a44f-0a785a7f907c,2024-08-14,Orthopedics,Moderate,E11 - Type 2 Diabetes,59,Government
+7fc9d6a7-2099-49ef-b309-7b13f94ed5b0,2024-11-23,Cardiology,Mild,J45 - Asthma,80,Government
+fd83b1af-5857-4324-810a-1da2988a5313,2024-03-31,ICU,Mild,C50 - Breast Cancer,89,Government
+769aefdb-df3a-45ac-9ff8-3c406397367d,2024-02-11,Emergency,Severe,I10 - Hypertension,56,Government
+9a924acc-d1d4-432d-ad7e-e99e1c9a193f,2024-12-07,Neurology,Moderate,E11 - Type 2 Diabetes,97,Private
+bfe35fa2-6c5f-43fb-8137-3edc64169dab,2024-06-18,Pediatrics,Mild,J45 - Asthma,90,Government
+d6cf646a-5bdc-4b80-ac27-75f845e5aede,2024-12-08,Oncology,Mild,J45 - Asthma,79,Private
+61f1b1a5-b550-4869-80fd-eb92c08ecdb7,2024-04-24,Orthopedics,Mild,E11 - Type 2 Diabetes,7,Government
+e9842a75-481d-4c6f-8330-92a8aa553747,2024-06-11,Emergency,Mild,I10 - Hypertension,35,Government
+5d02fa0a-370f-4d5f-a0d2-0c2515aebfdc,2024-08-08,Neurology,Mild,I10 - Hypertension,51,Government
+8ba2fe92-871d-4a54-983d-21494d4f0afe,2024-08-26,ICU,Mild,K21 - GERD,39,Government
+9a6b9127-89b5-453e-92b1-c90743969400,2024-12-25,Cardiology,Moderate,C50 - Breast Cancer,28,Private
+dd18ac67-e463-437a-a123-1652ee7deeed,2024-07-29,Neurology,Mild,E11 - Type 2 Diabetes,12,Government
+426d56a0-51d7-4890-954f-87c60870d9bb,2024-12-10,Neurology,Mild,C50 - Breast Cancer,79,Private
+bcfcf035-40a1-457e-84dd-a21f784c95ff,2024-10-24,Cardiology,Moderate,J45 - Asthma,16,Private
+ad0f82f9-e100-4cd8-b0a4-4c0fbf3b1988,2024-09-21,Pediatrics,Mild,R07 - Chest Pain,86,Government
+e31f23e3-a9e0-4fd9-9919-f8e99006da28,2024-09-24,Neurology,Moderate,S72 - Hip Fracture,93,Government
+93d766f8-45bf-44ee-b30e-b4aec53316df,2024-10-26,Pediatrics,Mild,K21 - GERD,55,Government
+807148a3-4ef5-4b78-9994-e8b2212618a6,2024-12-17,ICU,Moderate,I10 - Hypertension,53,Government
+56b85321-6048-4ef9-bdbc-09a2bbd33e7c,2024-07-13,Oncology,Moderate,S72 - Hip Fracture,28,Private
+bdf9dbbd-e6ab-40a6-a64a-075150bd5f6f,2024-05-03,Pediatrics,Mild,J45 - Asthma,82,Private
+4a57282a-6bd5-4980-b9d8-c58ca2414c6a,2024-08-25,Orthopedics,Severe,C50 - Breast Cancer,8,Government
+09dfcbe0-3e9b-4590-a327-e91c555a6ef7,2024-07-03,Pediatrics,Severe,I10 - Hypertension,73,Government
+36cffa4e-5662-4c03-a6ec-bd96bb5099f6,2024-11-13,ICU,Mild,S72 - Hip Fracture,1,Government
+dc7ae7d1-f0cd-462e-bc41-87d55a48afd4,2024-11-08,Emergency,Mild,S72 - Hip Fracture,72,Government
+c5d1e690-eda4-4104-becd-beb6f8751d75,2024-03-23,Cardiology,Mild,J45 - Asthma,86,Private
+d2b8adaf-96a4-46a4-99de-43c8f0ed9311,2024-03-21,Neurology,Moderate,S72 - Hip Fracture,21,Government
+5f740114-7eaa-4c19-bda2-6f8c5ee436d0,2024-11-20,Cardiology,Moderate,J45 - Asthma,33,Private
+416b259b-9720-4ca9-a3f8-cad1e75701c5,2024-03-26,Pediatrics,Moderate,C50 - Breast Cancer,82,Government
+aa528f66-cd68-480e-97ce-8b5d8aa867b5,2024-05-29,Emergency,Mild,J45 - Asthma,10,Private
+f916bd08-eaa1-4750-99b5-f54728f1754e,2024-04-05,ICU,Moderate,C50 - Breast Cancer,99,None
+cee2725f-c905-43c8-884e-69338758a3e1,2024-06-01,Pediatrics,Mild,K21 - GERD,61,Private
+40389011-aac4-47a6-a9db-c8c13c247237,2024-07-28,Oncology,Mild,R07 - Chest Pain,92,Government
+a8c82fcb-78e2-4991-a13c-b209e79f7723,2024-03-11,Emergency,Severe,K21 - GERD,25,Government
+e2376bf1-7fdb-48b3-b0f6-78f763d9a751,2024-09-10,Cardiology,Severe,S72 - Hip Fracture,42,Government
+819165ae-6908-46cc-bdad-d389be202e83,2024-08-13,ICU,Mild,E11 - Type 2 Diabetes,1,Government
+2da1078e-99d3-4ff3-8e19-7b5e88728435,2024-08-24,ICU,Moderate,K21 - GERD,91,Government
+dee81d14-f623-4ddf-b364-a0e6c6b89a52,2024-04-02,Neurology,Mild,C50 - Breast Cancer,38,Private
+a6847a46-9a08-47fb-a82e-8695cff97aab,2024-04-13,Orthopedics,Severe,E11 - Type 2 Diabetes,2,Government
+6760aa80-6554-4666-b834-0de11c2b311c,2024-08-18,Oncology,Severe,I10 - Hypertension,7,None
+a4fa856a-f716-4b6f-aa3a-c0e29ad80d42,2024-01-13,Cardiology,Moderate,K21 - GERD,3,Government
+a484cebd-48f6-492e-bcdb-0bafb11b97e9,2024-04-04,Emergency,Mild,S72 - Hip Fracture,70,Private
+71d951a9-b096-4a08-a157-ca5c06c0478d,2024-09-01,ICU,Mild,K21 - GERD,83,Private
+7bb5086d-2b74-4243-bcd6-7b2b7d5deba4,2024-04-04,Pediatrics,Mild,R07 - Chest Pain,53,Government
+d74c8fa9-11d1-40bd-9ef0-19ac931fa4ec,2024-10-09,Neurology,Moderate,R07 - Chest Pain,98,Private
+5364ae4c-1da9-4c29-beec-9abcde87df8b,2024-09-14,Pediatrics,Severe,R07 - Chest Pain,56,None
+253c9d5a-c975-4761-9264-59da3685c8e4,2024-11-21,Oncology,Mild,J45 - Asthma,28,Government
+a8482857-d0ab-4005-bd81-dd9aab6bcaab,2024-09-05,Pediatrics,Mild,S72 - Hip Fracture,56,Government
+fb8550b9-25bb-49bd-a1f3-543eb52aeac3,2024-07-26,Neurology,Mild,R07 - Chest Pain,66,Government
+f073642c-8a57-457e-84c1-2bd9c74b1d58,2024-09-06,Pediatrics,Mild,C50 - Breast Cancer,95,Government
+d7ba1752-0d7f-4da5-9001-5e976000c771,2024-05-17,Emergency,Mild,K21 - GERD,33,Government
+50a1d276-3f76-400f-b6a0-751bafc0657a,2024-11-01,Oncology,Mild,I10 - Hypertension,74,Government
+98ed64cf-1115-467c-af6f-f60fef90411d,2024-11-19,Oncology,Moderate,R07 - Chest Pain,82,Private
+2ee3b5d5-7e7d-4464-988f-e6858a862576,2024-03-27,Neurology,Moderate,C50 - Breast Cancer,20,Government
+57817040-a58d-4814-857b-3aa96eb6e626,2024-03-26,Cardiology,Mild,S72 - Hip Fracture,49,Government
+6a23d24e-0406-45e7-ab73-310503c469ec,2024-02-16,Cardiology,Mild,R07 - Chest Pain,12,Government
+6e9724cf-652b-4b7f-bc52-277f00c60df7,2024-08-15,Cardiology,Mild,C50 - Breast Cancer,38,Government
+6cf76d82-169a-4725-bddc-90bda57d6453,2024-01-03,Pediatrics,Mild,E11 - Type 2 Diabetes,18,Government
+4596227d-d527-4bde-b4bd-82c1be9d86ac,2024-12-27,Emergency,Mild,I10 - Hypertension,75,Private
+9d106183-a78d-42fc-8b40-d930f8c3457a,2024-11-04,Oncology,Mild,S72 - Hip Fracture,1,Private
+e4823917-0e92-4dac-8637-25ad971ddb34,2024-11-01,Neurology,Mild,S72 - Hip Fracture,99,None
+69a5dda2-81bf-4bb9-af5a-07c3f0460a57,2024-03-21,Orthopedics,Moderate,K21 - GERD,50,Government
+f3bac00d-3024-4c67-b9f0-7f3105c79815,2024-07-09,Emergency,Mild,J45 - Asthma,28,None
+ec11c305-960b-4fee-9957-29357356a733,2024-01-13,Pediatrics,Mild,J45 - Asthma,98,Private
+0cff540b-4222-4011-93ca-d768dfbfa049,2024-01-04,ICU,Moderate,J45 - Asthma,33,Government
+faf4a487-a076-4743-ade0-f46bff7a538d,2024-03-16,Emergency,Mild,R07 - Chest Pain,49,Private
+0d0a34b6-7cd6-4c1a-ad0a-f9ef9c27be9b,2024-01-12,ICU,Severe,K21 - GERD,11,Government
+863a7655-5cce-4f65-8309-81b0d6fa8741,2024-11-09,Pediatrics,Moderate,I10 - Hypertension,62,Government
+def20440-4f12-4f15-9a5c-28a3e3bbfd60,2024-10-03,ICU,Severe,K21 - GERD,49,Government
+16c8d61e-2673-492a-aafe-b61a0c9268af,2024-10-04,Cardiology,Mild,C50 - Breast Cancer,3,Government
+c320c6f1-2ed4-4d27-a261-434bf54c7de3,2024-10-18,Emergency,Mild,S72 - Hip Fracture,53,Private
+97416439-1a31-4b16-b529-de4e3cbfeed5,2024-09-23,Cardiology,Mild,J45 - Asthma,91,Government
+c18627ab-fc7d-4cda-a0fd-f8105239cf78,2024-06-05,Emergency,Mild,J45 - Asthma,76,Government
+f029b272-a069-494e-8203-2a8d7e0eb279,2024-06-04,Emergency,Severe,K21 - GERD,96,Government
+0f827ee5-4836-43fb-89a2-d1d05e314805,2024-11-28,ICU,Moderate,R07 - Chest Pain,46,Government
+fffaa131-2e32-4827-b9f1-304802958a23,2024-01-14,Neurology,Severe,C50 - Breast Cancer,17,None
+8c569452-c461-400c-bfb5-51106554dedf,2024-06-02,ICU,Mild,R07 - Chest Pain,1,Government
+7b872c38-4125-4f2c-8247-2b469584ef61,2024-11-17,Cardiology,Moderate,K21 - GERD,67,Government
+3af2f7c2-6aa6-48bf-8d7f-8d19f92f784b,2024-01-18,Cardiology,Mild,J45 - Asthma,6,Government
+f7fd257c-2750-4500-8856-2a9552f67a71,2024-05-14,ICU,Mild,J45 - Asthma,32,Private
+2226aafc-cf84-4ef4-bccd-655a8a1ba147,2024-11-20,Orthopedics,Mild,K21 - GERD,46,Private
+837ee205-ae7d-4569-a193-e395cde91831,2024-05-26,Neurology,Mild,I10 - Hypertension,36,Government
+cb47c5c9-2640-4c2d-bffa-3b26748390cf,2024-08-08,Neurology,Mild,K21 - GERD,47,Government
+18c40ea9-f5fb-4985-b272-01f8fcf8f4f9,2024-10-04,Cardiology,Severe,E11 - Type 2 Diabetes,58,Government
+5cdd41d7-a125-4296-bafd-9b715b0563aa,2024-01-23,Neurology,Moderate,I10 - Hypertension,1,Government
+9fe3d643-4672-4600-bdba-852066009fd2,2024-03-18,Orthopedics,Moderate,E11 - Type 2 Diabetes,44,Private
+b4a2d251-5c54-4697-a30a-6d4fcaedbc9b,2024-06-03,Orthopedics,Moderate,E11 - Type 2 Diabetes,22,Private
+f9d424d7-7e40-45ec-9edf-2313535780a1,2024-01-15,Oncology,Mild,K21 - GERD,47,Private
+2c06565b-fa4b-4222-9f15-2bd5b9eb3e2c,2024-06-19,Emergency,Mild,I10 - Hypertension,58,None
+2ff2e2d1-25e4-4a70-9418-6730aa4ea9f8,2024-06-04,Emergency,Mild,R07 - Chest Pain,20,Government
+4925a8c9-eb5b-45d0-bf4e-d96b6004ec31,2024-12-19,Pediatrics,Mild,E11 - Type 2 Diabetes,93,Government
+6030d013-56d4-4dba-9356-af1d7310c418,2024-06-01,Emergency,Moderate,I10 - Hypertension,34,Private
+155646ba-122f-4399-a388-f76de36d9c14,2024-04-26,Emergency,Severe,R07 - Chest Pain,66,Government
+d31430a0-9d9c-4457-8255-cad6e955a59d,2024-08-04,Pediatrics,Mild,S72 - Hip Fracture,36,Government
+7d026960-3c44-4bf7-a60b-4c4f14087767,2024-08-22,Neurology,Mild,J45 - Asthma,38,Private
+641c0a12-5fdc-4c1f-833f-9ea66de4ba72,2024-09-15,Neurology,Mild,E11 - Type 2 Diabetes,21,Government
+5f5d5f17-bd52-455e-9e3b-765eb1880058,2024-04-21,Orthopedics,Moderate,I10 - Hypertension,50,Government
+181a6895-feb6-43f2-bdd3-54ad596f5c6d,2024-04-29,ICU,Mild,K21 - GERD,73,Government
+a2e8d761-6353-4ada-ae4f-f71cbf081aed,2024-01-16,ICU,Severe,I10 - Hypertension,99,Government
+dbd50cce-96e6-4193-b0e9-fd9edce36662,2024-09-05,Oncology,Mild,J45 - Asthma,94,Government
+2a1c2bb2-f62c-4dd7-b37f-b309a08094f5,2024-06-24,Neurology,Mild,R07 - Chest Pain,91,Government
+25d09c48-ec0a-4821-b48d-d0f02be457e7,2024-01-14,ICU,Moderate,I10 - Hypertension,2,Private
+f0fd6b46-b7e9-4e2c-b133-dfd981370432,2024-05-12,Pediatrics,Mild,E11 - Type 2 Diabetes,13,Government
+b3026d9e-4d26-4c24-ad51-e69936c251ab,2024-05-19,ICU,Severe,C50 - Breast Cancer,72,Private
+fe1c402f-4fc5-4467-bc2a-1a60e8f110ba,2024-01-13,ICU,Moderate,C50 - Breast Cancer,53,Private
+d5bc0d9a-4407-462c-a18d-0a36484aeec8,2024-06-27,Pediatrics,Mild,R07 - Chest Pain,16,Private
+cf27e36a-090f-46f0-beeb-b25741493aa6,2024-08-02,Pediatrics,Mild,I10 - Hypertension,15,Government
+ca0e1b34-1e74-46b8-8896-2a30cdb72234,2024-02-17,Orthopedics,Mild,J45 - Asthma,61,Government
+a268fde8-a52d-46e0-9ce5-2f35cdc57861,2024-12-17,Cardiology,Moderate,S72 - Hip Fracture,60,Private
+238bf2c7-666c-42a1-9340-2945ea02ac45,2024-01-22,Oncology,Severe,I10 - Hypertension,17,Private
+2c5477f4-ebbd-4828-bcd2-378fc0c66510,2024-12-30,Emergency,Mild,J45 - Asthma,78,Government
+cde2b4f9-d4e9-414e-b4a5-42f9df3fd4f8,2024-12-21,Oncology,Severe,R07 - Chest Pain,15,Private
+fa8c9326-2084-44a5-ac05-8e6b13571cb8,2024-10-14,ICU,Moderate,S72 - Hip Fracture,18,Private
+6bf70392-07a8-43b0-a9b9-75c21fec69bb,2024-04-28,Pediatrics,Moderate,R07 - Chest Pain,64,Private
+be2045c0-c531-4437-89ef-7c22668e1526,2024-07-25,Pediatrics,Severe,E11 - Type 2 Diabetes,96,Government
+882297e0-be61-4496-9ab9-8079047b7a0a,2024-08-18,Oncology,Moderate,E11 - Type 2 Diabetes,88,Government
+96eab052-4646-40a1-959b-ee10806f13e2,2024-12-26,Oncology,Mild,J45 - Asthma,70,Government
+078e66e0-81ec-49b1-a79f-afd53fde3d85,2024-12-28,Pediatrics,Severe,I10 - Hypertension,71,Private
+4cce218a-dadb-4d2f-ac27-bfb66f17777c,2024-09-16,Orthopedics,Moderate,E11 - Type 2 Diabetes,17,Private
+57e8742e-368c-4b20-a243-eb01fccf13b6,2024-02-28,Orthopedics,Mild,K21 - GERD,88,Government
+9aead5a1-67aa-4889-accb-9be175c9bf47,2024-01-19,ICU,Mild,I10 - Hypertension,79,Government
+254e5e2a-bfe5-4716-9420-9188396a0f3b,2024-04-16,Emergency,Moderate,J45 - Asthma,12,Government
+89afeb86-4f1e-4c77-bbd6-7cf62697ec8d,2024-09-06,Orthopedics,Mild,K21 - GERD,41,Government
+ccd56cb9-6ab9-4b85-a95d-c4260e5ff913,2024-11-14,ICU,Mild,J45 - Asthma,34,Private
+47b3bdc4-2553-4796-8e25-20b7f371e3f2,2024-03-22,Neurology,Mild,S72 - Hip Fracture,3,Private
+6bc50547-d756-412b-8f9c-c3a2ce87802b,2024-03-03,Emergency,Mild,J45 - Asthma,94,Government
+bd1cee37-abd7-4c45-b743-f958956cc3c3,2024-03-25,Cardiology,Moderate,I10 - Hypertension,25,None
+5c5f69c0-5df4-478d-8672-f6c6f408ab55,2024-11-09,Oncology,Mild,K21 - GERD,65,Government
+6c10438e-c6f9-4b20-9811-8dc4b7442323,2024-12-22,Cardiology,Moderate,E11 - Type 2 Diabetes,59,Government
+d5ac0e7a-bd2b-4a1f-90c1-4ea676d7f538,2024-05-07,Neurology,Mild,R07 - Chest Pain,11,Government
+344188a2-aba1-46c5-8342-6acbf0156b51,2024-07-14,Pediatrics,Moderate,K21 - GERD,92,Government
+e28baf80-9c06-4d90-86b4-f5f9fad4b86b,2024-03-30,Pediatrics,Mild,C50 - Breast Cancer,85,Government
+78503990-1c22-4c22-984f-18921504d537,2024-12-28,Emergency,Moderate,K21 - GERD,45,Government
+24b9f5f2-b427-4811-a66d-292785632ecb,2024-10-11,Neurology,Mild,S72 - Hip Fracture,84,Private
+299aba7a-f8cd-4726-a4e5-67660eab3fb1,2024-02-07,Oncology,Moderate,R07 - Chest Pain,53,Government
+f7606ec9-1801-487a-b720-02ec06a2601e,2024-11-14,Oncology,Moderate,J45 - Asthma,84,Government
+968bbdd9-25d2-4df2-a91e-7d5bcd2ae32f,2024-10-11,ICU,Moderate,K21 - GERD,36,None
+12f2812b-4476-48ef-9656-19f1defc56d3,2024-07-24,ICU,Mild,K21 - GERD,47,Government
+549116b2-1ac9-424a-878f-f4b387b02003,2024-04-08,Emergency,Severe,C50 - Breast Cancer,3,Government
+2dde1c90-ab62-4e53-911e-84b8ab85ab9f,2024-11-12,Neurology,Mild,S72 - Hip Fracture,83,Private
+781453d5-95a0-4ae3-9032-67ecd17e994d,2024-06-13,Emergency,Severe,K21 - GERD,15,Government
+c8158419-ff66-4a6e-b109-5ede4300ae31,2024-11-15,Neurology,Moderate,S72 - Hip Fracture,81,Government
+9a4e42b1-16f8-4bd9-987a-4f8a15014617,2024-06-03,Neurology,Moderate,S72 - Hip Fracture,41,Government
+a259b6e2-dc3e-4e58-8266-e6ada89aa045,2024-05-09,Cardiology,Moderate,R07 - Chest Pain,10,Government
+313b5811-e7ed-494b-898b-544c91356443,2024-12-11,Oncology,Mild,R07 - Chest Pain,63,Government
+8fc60719-8d69-47f3-9ed7-5e010216e047,2024-10-19,Orthopedics,Mild,S72 - Hip Fracture,79,None
+5889dbcd-0c2b-416c-b40d-9f559eaa8617,2024-09-06,Emergency,Moderate,R07 - Chest Pain,47,Government
+8aac6409-5432-44e3-8de8-b07a096b2546,2024-02-14,ICU,Moderate,I10 - Hypertension,7,Government
+cc5ef2c4-aeb8-438c-926c-4723a04fc5e1,2024-05-22,Emergency,Moderate,I10 - Hypertension,71,Private
+de3f52bc-0574-4a2f-9c35-881ed478e26f,2024-10-12,Pediatrics,Mild,R07 - Chest Pain,76,Government
+312c3141-0a70-4957-aa20-6a7b2e4fd1e1,2024-05-28,Neurology,Mild,S72 - Hip Fracture,91,Government
+a8111eb9-bd23-40c8-a1df-9677da5d3659,2024-09-19,ICU,Mild,E11 - Type 2 Diabetes,33,Government
+cc35517c-00ee-4692-ab55-88292b0eec3e,2024-10-20,Neurology,Moderate,E11 - Type 2 Diabetes,79,Private
+ed1253d0-3800-45c7-88f6-8faa59750e0d,2024-05-12,Pediatrics,Severe,E11 - Type 2 Diabetes,9,Government
+d2f85ded-f67c-409c-be29-653286d46d93,2024-02-06,ICU,Mild,C50 - Breast Cancer,18,Private
+e428a4dd-72fa-4352-b9d5-57683e4f8cb2,2024-08-13,Pediatrics,Moderate,J45 - Asthma,18,Government
+3da32688-65cd-420c-9910-455f6acf95f2,2024-01-31,Neurology,Mild,E11 - Type 2 Diabetes,17,Private
+52eef685-819d-4626-904a-4d8f0cdf120d,2024-03-11,Orthopedics,Moderate,C50 - Breast Cancer,62,Private
+56367266-8e88-4236-8469-8c2d03acfc87,2024-08-18,Orthopedics,Mild,K21 - GERD,68,Private
+d512848d-df8f-428d-9e23-a3f45e9776b6,2024-11-08,Neurology,Moderate,I10 - Hypertension,66,None
+9993d36d-b964-47bf-ae90-8bd77aeef0e0,2024-10-12,ICU,Mild,I10 - Hypertension,51,None
+28099665-003c-4b3e-ad96-f365679d2968,2024-06-29,Emergency,Moderate,E11 - Type 2 Diabetes,64,Private
+944d24c6-d8e5-4bad-9be9-191615fbf84c,2024-07-31,Oncology,Mild,R07 - Chest Pain,29,Government
+0a79190f-92bf-4a4d-b263-fd28577a999b,2024-11-01,Cardiology,Mild,E11 - Type 2 Diabetes,19,Government
+a733c389-be2f-4e67-ad55-a419dd0be2eb,2024-05-18,Cardiology,Mild,K21 - GERD,76,None
+b7b59b1b-8cfa-4d64-9e9a-56907a318210,2024-01-04,Cardiology,Mild,K21 - GERD,47,Government
+17392100-a673-4895-8e21-b9835bf6f32a,2024-05-04,Orthopedics,Mild,S72 - Hip Fracture,9,Private
+e9517258-4a68-46a9-a2dd-33e528c06dee,2024-07-06,Emergency,Moderate,K21 - GERD,58,Government
+725101cc-fee2-4e6c-958e-6b29219ea53d,2024-05-06,Oncology,Moderate,I10 - Hypertension,5,Private
+01c720bd-f1dc-4b0f-82fd-309ba6dc733f,2024-02-12,Pediatrics,Moderate,C50 - Breast Cancer,19,Private
+39216cce-8eef-4088-9d9a-79713cafa671,2024-05-15,Pediatrics,Mild,E11 - Type 2 Diabetes,79,Government
+f33438d8-4e33-4e7c-b788-e04bda92a3ac,2024-09-27,Neurology,Severe,J45 - Asthma,93,Government
+7acd7fb4-cf3b-40df-ac58-d74547debf43,2024-11-10,Pediatrics,Mild,I10 - Hypertension,54,Private
+d5a661bc-ec47-4b15-938d-aa8d9cc46200,2024-04-27,Emergency,Mild,J45 - Asthma,36,Private
+068d7e3e-ba01-4d63-9a16-10c0927be7d2,2024-09-11,Neurology,Mild,J45 - Asthma,30,None
+58b84187-3f63-455c-843f-d6fb47239ba3,2024-02-25,Oncology,Moderate,E11 - Type 2 Diabetes,10,Government
+fa087203-448f-4948-9daa-b08e16ab7b2d,2024-02-03,Neurology,Mild,I10 - Hypertension,32,Government
+f56f4e62-032d-49b6-a8d8-995c40218ce0,2024-03-04,Oncology,Mild,C50 - Breast Cancer,23,Private
+1ef69ec3-aabd-4698-8559-220c1059ec62,2024-11-24,Orthopedics,Mild,S72 - Hip Fracture,43,Government
+3ed47659-b752-4230-a5fb-19caf759421e,2024-11-19,Orthopedics,Mild,C50 - Breast Cancer,96,Private
+23202714-f5c3-4f48-b29b-04c80fe7a0e2,2024-04-18,Oncology,Moderate,K21 - GERD,32,Private
+921de124-52a3-4efb-81ed-186f605c9bad,2024-06-27,ICU,Mild,S72 - Hip Fracture,83,Government
+18f902f4-c658-4bb7-9d80-c06158aefc00,2024-09-07,Orthopedics,Mild,E11 - Type 2 Diabetes,59,Government
+2d61b059-7b47-46c3-be60-62fc12f3962e,2024-05-10,Emergency,Mild,S72 - Hip Fracture,21,Government
+701f70b0-b901-47ce-b831-cf40e2efcdc7,2024-11-24,Orthopedics,Mild,I10 - Hypertension,91,Private
+0b434685-3406-4dab-8002-c4baf33ffc0e,2024-04-16,ICU,Mild,R07 - Chest Pain,64,Private
+9305c5c8-0994-47de-b9d8-a7d78b450798,2024-12-31,Cardiology,Moderate,S72 - Hip Fracture,83,Government
+31fd7e3f-ac7d-4292-8ca3-0fdaf4dbd423,2024-12-01,Pediatrics,Severe,C50 - Breast Cancer,58,Government
+bd4c057b-055b-4882-8343-6d33d4d37646,2024-08-24,Neurology,Mild,I10 - Hypertension,62,Government
+b81255ea-09a9-429c-994e-1396edd0da87,2024-10-30,Neurology,Moderate,C50 - Breast Cancer,36,Government
+fdcbd16d-667c-4a0e-ac60-fc42c089d617,2024-03-12,ICU,Mild,R07 - Chest Pain,96,Government
+b591f941-e81d-470f-946d-5ae937076b70,2024-11-11,Pediatrics,Mild,S72 - Hip Fracture,96,Government
+f3fe7154-1da4-4c26-acb4-1e39d4c30417,2024-12-26,Cardiology,Mild,I10 - Hypertension,84,Private
+0b5332ee-dc04-4cf6-a7b4-b333f633449f,2024-02-08,Oncology,Moderate,E11 - Type 2 Diabetes,9,Government
+41faa854-bc87-4b7c-aba9-b6d77c14ec94,2024-05-28,ICU,Mild,E11 - Type 2 Diabetes,87,Private
+88f84508-653f-4fcc-bf83-15984f72b191,2024-01-25,Oncology,Mild,K21 - GERD,85,None
+f140f96b-abda-4115-bfbe-856516993a13,2024-08-12,Orthopedics,Mild,K21 - GERD,12,Private
+4c9645eb-d719-4fbd-a74d-67b96c396e28,2024-05-23,Oncology,Moderate,E11 - Type 2 Diabetes,43,Private
+94afb0f8-bf5d-4a24-b066-f07d89479b02,2024-09-07,Cardiology,Mild,K21 - GERD,46,Private
+84a1c852-8b21-48e3-adae-fcfcba03e2ac,2024-12-12,Oncology,Moderate,J45 - Asthma,34,None
+420f9f54-d171-40a3-b29c-98c90a4c16dd,2024-12-17,Cardiology,Moderate,I10 - Hypertension,18,Private
+5538fe8d-c471-4f31-b7cf-7649dd53fe4f,2024-08-26,Cardiology,Severe,K21 - GERD,13,Government
+6dd7b194-38db-4f78-b141-aea40e26add1,2024-11-21,Neurology,Mild,R07 - Chest Pain,7,Government
+60d6a2a0-4bb0-4d41-9475-0b37a56d1cb9,2024-08-27,Orthopedics,Moderate,E11 - Type 2 Diabetes,89,Private
+b56d9e2f-b0ca-4a81-8995-c349a720477e,2024-07-14,Pediatrics,Mild,R07 - Chest Pain,75,Private
+7786f0a7-9a6f-44fe-850a-59f0b674efbd,2024-05-09,Cardiology,Moderate,R07 - Chest Pain,97,Government
+28c82d1d-1e59-4cc7-8184-70f50edc370b,2024-02-26,Orthopedics,Severe,I10 - Hypertension,44,Government
+eab4a872-1623-4c43-aa0d-db6f88389732,2024-05-12,Oncology,Moderate,J45 - Asthma,72,Government
+ea6be155-441a-4a9d-8c18-701e9b88162d,2024-12-09,ICU,Mild,J45 - Asthma,77,Government
+9e3da01a-98bf-410e-bee2-787425e93163,2024-03-15,ICU,Severe,S72 - Hip Fracture,53,Private
+898d2607-7a2d-4bff-afb2-91eabbec7da7,2024-11-09,Cardiology,Moderate,E11 - Type 2 Diabetes,78,Government
+5dea8a0d-beae-4209-9f49-cba6dd927b6b,2024-09-02,Pediatrics,Mild,R07 - Chest Pain,58,Government
+4049b74d-255b-4d2a-ac21-afdc6066c55e,2024-03-05,Cardiology,Mild,R07 - Chest Pain,92,Government
+ee4b7a4c-0db7-4a27-9c39-f6727234bd1f,2024-09-15,Oncology,Moderate,I10 - Hypertension,78,None
+1a02f7f2-9563-4d5b-847c-bf10eef3fa12,2024-12-07,Neurology,Mild,J45 - Asthma,87,Private
+7cb30533-4fd6-4829-a406-89ef27262395,2024-04-08,Pediatrics,Mild,K21 - GERD,23,None
+6e674f44-eb39-4a59-af46-8a1098da47de,2024-11-12,Oncology,Mild,C50 - Breast Cancer,65,Government
+145d1928-c39c-4597-88e9-d02631dc95ea,2024-05-30,Neurology,Mild,K21 - GERD,45,Private
+536aa872-44d8-4f5e-9694-f61edfc2660a,2024-12-04,ICU,Severe,K21 - GERD,82,Private
+8f1c1ead-41bd-408e-a825-049bef54c5b0,2024-06-08,Oncology,Moderate,J45 - Asthma,8,Private
+21456024-fa7d-4798-a187-4253742d42dc,2024-03-27,Cardiology,Moderate,I10 - Hypertension,69,Government
+14dfccdb-c028-4932-a7b4-47603734e67c,2024-11-18,Pediatrics,Moderate,E11 - Type 2 Diabetes,9,Private
+bf5e825d-70f6-4fdd-9e6b-11ebe7ee384d,2024-06-08,Oncology,Mild,I10 - Hypertension,64,Government
+2848f024-7e9d-404b-96c1-151e117363db,2024-03-19,ICU,Mild,K21 - GERD,84,Private
+12b3c0c3-d6aa-4a0c-b12e-73a064460739,2024-07-22,Cardiology,Mild,K21 - GERD,89,None
+4eed1061-9739-4780-8155-6b44d8af7f8e,2024-01-23,Pediatrics,Mild,E11 - Type 2 Diabetes,60,Private
+e5558161-7c79-4944-be6e-1eda13fe245f,2024-04-28,Oncology,Moderate,C50 - Breast Cancer,92,Government
+86ce952f-e924-4a80-9da2-cbd645cd5d63,2024-08-15,ICU,Mild,C50 - Breast Cancer,46,None
+99605983-9207-4bb6-bb8e-d5967eae116a,2024-08-04,Cardiology,Moderate,E11 - Type 2 Diabetes,19,Government
+a8119384-4eef-4c6f-85d8-2bed650888d9,2024-05-07,Neurology,Moderate,S72 - Hip Fracture,77,None
+a8ee0d14-43b1-4b91-afaa-060b0587ed90,2024-08-09,Emergency,Mild,I10 - Hypertension,48,Government
+299cc80a-a210-427c-b448-213f844d405b,2024-02-18,ICU,Moderate,K21 - GERD,8,Private
+c8c00c4e-40b5-4f84-afdc-5aef8da30ee5,2024-04-20,Emergency,Severe,R07 - Chest Pain,52,Government
+957bf36c-001c-4123-9f51-13f5f8b0c6b4,2024-06-20,Emergency,Mild,K21 - GERD,44,Private
+0b300fd5-0f14-4e14-8700-96f9475d4c44,2024-11-26,Cardiology,Moderate,J45 - Asthma,71,Government
+43c87f5e-4ca6-4ce4-954c-fddf0d20d05c,2024-01-22,Pediatrics,Moderate,R07 - Chest Pain,42,Government
+acff5e71-760c-496c-8ab7-6bdc70a6c2c8,2024-12-16,Pediatrics,Moderate,J45 - Asthma,32,Government
+84102034-9462-413c-a9e6-a8642a4448b4,2024-02-29,Oncology,Mild,S72 - Hip Fracture,43,Government
+7142f37a-7214-418d-a945-87a2134a6a08,2024-03-02,ICU,Mild,S72 - Hip Fracture,19,Private
+74013678-e06e-4674-8b6e-1daec9369f2c,2024-07-04,Cardiology,Moderate,S72 - Hip Fracture,99,Government
+3ee6f437-f174-415d-96d0-6011d52e1f5a,2024-06-12,Orthopedics,Mild,E11 - Type 2 Diabetes,83,Government
+75ca936c-6907-4525-8344-1682de836432,2024-02-29,Neurology,Mild,C50 - Breast Cancer,77,Government
+f9f02db3-9ab4-4da1-8d31-408fc19fc886,2024-02-19,Orthopedics,Mild,E11 - Type 2 Diabetes,81,None
+d900d843-7fce-42f5-94fc-0cfde3cbe602,2024-04-19,Orthopedics,Severe,S72 - Hip Fracture,68,Government
+539ce4b5-60a6-4e2f-946c-ec81cb78074b,2024-11-23,Orthopedics,Mild,S72 - Hip Fracture,74,Government
+777a45b8-7ed5-4573-b347-1dbb4bf42b26,2024-08-12,Cardiology,Severe,E11 - Type 2 Diabetes,39,Private
+0ed13684-70dd-42cc-b6e0-eafc7b30d1d2,2024-09-14,Oncology,Mild,C50 - Breast Cancer,82,Government
+9c6a2b25-2c27-4671-a1a3-07c891b1d2b3,2024-05-28,Oncology,Moderate,S72 - Hip Fracture,1,Government
+519130aa-5b1a-4dba-af05-2c43e5a84743,2024-10-18,Pediatrics,Mild,E11 - Type 2 Diabetes,8,Government
+9db3016c-ef0f-4cde-a8e5-39c030391e13,2024-12-12,Cardiology,Severe,J45 - Asthma,28,Government
+74566cdb-66be-4d38-8600-5411ae8cd85a,2024-08-13,Emergency,Mild,K21 - GERD,3,Government
+11d2585a-1ef0-4f24-b7e5-bfcf41e96537,2024-10-19,ICU,Mild,J45 - Asthma,38,Government
+beafe9bc-fb1c-4ef0-93c2-4322911a19b4,2024-09-30,Neurology,Moderate,C50 - Breast Cancer,43,Government
+ef8645af-3621-4c23-9848-2b5508a92d8a,2024-09-16,Neurology,Mild,J45 - Asthma,80,None
+afc49091-6de0-4923-bd4c-e787ea2798c7,2024-06-26,Pediatrics,Moderate,S72 - Hip Fracture,76,None
+c016e001-f9b4-40c4-b0f9-a191c84f5a0d,2024-12-18,Cardiology,Mild,E11 - Type 2 Diabetes,48,Government
+15951d5f-1101-48ae-9491-5ae78c4edb00,2024-12-18,Neurology,Moderate,I10 - Hypertension,36,Government
+7d69dc05-f417-4522-bf0e-fe1ba687f1c0,2024-09-15,Pediatrics,Moderate,I10 - Hypertension,1,Private
+a53f2bf5-da6a-464c-a037-ae3fd755c5d3,2024-04-08,Orthopedics,Mild,K21 - GERD,61,Private
+2229f47f-8bd0-4839-8169-9c044108b94a,2024-04-10,Cardiology,Mild,K21 - GERD,46,Private
+a5c3d0ab-bc3b-4def-9497-10e7fa1c6347,2024-10-16,ICU,Mild,E11 - Type 2 Diabetes,16,Government
+a742b5cb-d92c-46d5-9fc9-b513572f5fb3,2024-12-07,Pediatrics,Mild,R07 - Chest Pain,54,Private
+26739cf6-0537-4a9a-9e4b-03d5237e3c1c,2024-05-27,Cardiology,Mild,E11 - Type 2 Diabetes,88,Government
+16856579-bd87-459d-9c33-7ee29dc7dcc0,2024-11-18,ICU,Moderate,C50 - Breast Cancer,60,Private
+cd462c3d-b86c-48b2-8518-9f98e3708b1b,2024-06-30,Orthopedics,Severe,S72 - Hip Fracture,40,None
+62807f74-cfb7-411f-837a-505818656152,2024-09-10,Neurology,Mild,S72 - Hip Fracture,78,Government
+a378a6a4-95c5-4d29-9593-6f60d3163875,2024-11-23,ICU,Severe,S72 - Hip Fracture,5,Government
+659d1911-d2eb-4f56-aa97-e25dd4afc91d,2024-03-27,Orthopedics,Mild,K21 - GERD,92,Government
+909952e8-c169-4f15-9aaa-0c8f8fc27f96,2024-07-15,Cardiology,Mild,J45 - Asthma,43,None
+154230d0-651a-4ddb-b220-719df093d1ae,2024-12-01,Orthopedics,Mild,K21 - GERD,22,None
+e443c39f-0fa0-4a7b-8982-19d97d54c280,2024-11-15,Orthopedics,Mild,I10 - Hypertension,80,Private
+17d4b73b-806d-4a1d-a9bf-601b6c835ad2,2024-03-30,Cardiology,Severe,R07 - Chest Pain,90,Private
+dd19d597-309f-4c85-8b27-a7ece8ab5514,2024-10-20,Cardiology,Moderate,K21 - GERD,24,Government
+588709d8-d051-42a6-9b20-adcf148b131c,2024-05-27,Cardiology,Mild,R07 - Chest Pain,29,Private
+3be8b00c-a312-4612-8270-1c62a879e2e0,2024-01-27,Oncology,Mild,C50 - Breast Cancer,55,Private
+64d24c1c-cec9-41e2-9ccc-965ebcf88807,2024-08-28,Emergency,Moderate,J45 - Asthma,23,Government
+ca8db5dd-67ca-4289-8ea1-565ec614c534,2024-07-06,Cardiology,Moderate,E11 - Type 2 Diabetes,90,Government
+85fca34a-ec4c-43fd-8c98-4a684ac1b514,2024-06-04,Oncology,Mild,C50 - Breast Cancer,39,Government
+bed217af-d7d6-483c-ad83-0166df41b21f,2024-08-28,Oncology,Mild,J45 - Asthma,95,Government
+f7e6b37d-a04f-4bf4-9ed2-fb37d89a61d8,2024-10-26,Cardiology,Mild,K21 - GERD,73,Private
+cae4b6d2-da18-44cc-ae4b-dc32a03f8146,2024-08-19,ICU,Mild,S72 - Hip Fracture,35,Private
+e7d1ec5c-c477-4c22-b160-891152b3405a,2024-10-16,Orthopedics,Mild,J45 - Asthma,20,Government
+a471153b-20d3-40d0-b10f-ca2a293ba502,2024-09-01,Neurology,Moderate,C50 - Breast Cancer,22,Government
+f916994e-b037-4cce-8c07-d0d21ebbf0f9,2024-11-27,Oncology,Mild,K21 - GERD,35,Government
+e18df9fe-7223-4374-ae80-8cf187b9d8ed,2024-09-26,Emergency,Mild,C50 - Breast Cancer,15,Government
+5beb9a10-848e-4b88-8ef0-980989203126,2024-08-29,Cardiology,Mild,J45 - Asthma,68,None
+2ed24759-2259-4e4a-a410-9abef3c85aa6,2024-10-05,Emergency,Mild,C50 - Breast Cancer,22,Government
+84ae38af-8088-4ad8-b5f3-0770f0a866c5,2024-12-08,Neurology,Severe,E11 - Type 2 Diabetes,29,Government
+a0a655c4-bb73-408a-a69b-c7bce52967c3,2024-06-23,Oncology,Moderate,R07 - Chest Pain,55,Government
+4e34a28d-0ccd-4dc6-86bb-727962687789,2024-03-26,Cardiology,Moderate,C50 - Breast Cancer,80,Private
+94d0d4fc-7998-49f8-962e-06fd0c27591e,2024-08-29,ICU,Moderate,C50 - Breast Cancer,68,Government
+d44b6edb-1924-48fa-b3e1-1b97ce6c946b,2024-08-17,ICU,Mild,J45 - Asthma,29,Government
+bdd4097f-157c-4746-97c1-58b7f4b584b1,2024-06-04,Orthopedics,Severe,I10 - Hypertension,95,Private
+2751e399-dd77-4404-b1c2-963b804d4418,2024-04-20,Pediatrics,Moderate,C50 - Breast Cancer,26,None
+71b44c47-6d51-4df5-bb3b-df844e608aa4,2024-03-07,Orthopedics,Moderate,I10 - Hypertension,21,Government
+d05ed766-a6ee-4f7f-839d-ea8352dae019,2024-01-09,Oncology,Mild,J45 - Asthma,75,Government
+7309f639-579c-42be-b4f8-0c07f10c7ba7,2024-09-26,Emergency,Mild,E11 - Type 2 Diabetes,83,None
+de63986d-5a64-4c3f-bb2f-245a1c9c7d89,2024-12-12,Oncology,Moderate,C50 - Breast Cancer,79,Government
+814e21ac-ae63-4790-911f-58cdd658e102,2024-01-29,Pediatrics,Mild,R07 - Chest Pain,83,Government
+35ee6fed-3a26-407d-9aaf-589988df0b01,2024-03-28,Emergency,Severe,J45 - Asthma,7,Private
+0296221b-0f27-48a8-9199-09b6f54d786d,2024-08-21,Emergency,Mild,C50 - Breast Cancer,40,Government
+7bc3eb53-debd-4ac6-8c1d-d2a02cf5e2b9,2024-12-24,Emergency,Mild,I10 - Hypertension,30,Government
+417f9949-0ae6-473b-b472-8b423cf0bd34,2024-09-11,ICU,Mild,K21 - GERD,8,None
+4b10954f-4876-4268-aeaa-07a76ff50d1e,2024-12-28,ICU,Mild,S72 - Hip Fracture,2,Government
+fd2e60f1-b454-42f7-8226-0219bd2f4d6a,2024-08-11,Oncology,Mild,C50 - Breast Cancer,68,Government
+ceabd220-fa04-418f-95f8-ba18d1d4c8ee,2024-12-28,Oncology,Severe,K21 - GERD,99,None
+deee0575-ebb4-4acf-8aad-644e252e8aa6,2024-07-04,Pediatrics,Mild,C50 - Breast Cancer,57,Private
+96fd660d-1bb1-490a-b809-275511f6a38e,2024-04-01,Oncology,Mild,I10 - Hypertension,99,Government
+5eda6c03-fac4-40cc-b055-376f9f3a9dc1,2024-09-12,Pediatrics,Mild,C50 - Breast Cancer,79,Private
+e4026ce7-d8f2-4e5d-a024-0090d52700bc,2024-06-16,Oncology,Moderate,K21 - GERD,78,Government
+0e2c06aa-7574-4fbf-9357-7f5b7d296eb4,2024-02-22,Cardiology,Moderate,R07 - Chest Pain,47,Private
+291dfc64-6922-4e7a-a500-d90b5e516a61,2024-12-06,ICU,Mild,C50 - Breast Cancer,39,Government
+d630ba2e-eca9-4149-bce3-55f49d3e062d,2024-09-28,Emergency,Severe,R07 - Chest Pain,28,Government
+ed7a792b-4e18-4003-bfea-c58bf7315e59,2024-04-12,Neurology,Mild,J45 - Asthma,36,Private
+b9fb33d7-9cde-448b-9d51-833b5df91987,2024-05-31,Emergency,Mild,C50 - Breast Cancer,72,Government
+2796269c-84d9-4422-bba0-a5f9db38f0b2,2024-12-17,ICU,Severe,J45 - Asthma,36,Government
+fd275796-b359-4aec-84b7-c330eee68605,2024-10-09,Oncology,Mild,E11 - Type 2 Diabetes,47,Private
+2c10faac-ea92-443b-b03f-ecebd8359e75,2024-03-21,Oncology,Mild,S72 - Hip Fracture,48,Private
+75cdcfb1-ed42-42b9-9fc8-4cd73d47d8f3,2024-07-28,Neurology,Mild,C50 - Breast Cancer,89,Government
+8413e818-97d5-446c-92cb-9cf33c518c87,2024-06-10,Cardiology,Mild,K21 - GERD,27,Government
+3ba57995-b9c1-431d-8cb3-d9fab7a09870,2024-06-22,Pediatrics,Moderate,K21 - GERD,7,Private
+e5740733-41c1-4287-b57b-0242846cf880,2024-08-05,ICU,Severe,C50 - Breast Cancer,17,None
+34364cb3-02bf-4218-af48-5f4767adb4e1,2024-12-04,ICU,Mild,K21 - GERD,37,Government
+4a816087-3ad2-43ae-b5c2-79e07b4c3864,2024-10-09,Oncology,Mild,I10 - Hypertension,70,Private
+ce143e89-6d8c-40b9-94a7-fa3905e93bfa,2024-03-08,Cardiology,Moderate,E11 - Type 2 Diabetes,63,None
+c6811793-26af-439b-996b-c2cfd51a2fc1,2024-11-28,Pediatrics,Moderate,C50 - Breast Cancer,53,None
+7f9c8b16-0494-4bb9-bff0-17d638b34c34,2024-09-19,Pediatrics,Mild,I10 - Hypertension,91,None
+786f4d4f-c5cb-47bb-b57c-b6587a59d75c,2024-11-03,Orthopedics,Moderate,K21 - GERD,45,Private
+81405ecd-9a5f-4c47-9635-b03faf8699d0,2024-03-13,Orthopedics,Mild,R07 - Chest Pain,42,Government
+3e28691a-e6b6-4b7c-ad6f-42aaf864bcea,2024-06-06,Neurology,Moderate,C50 - Breast Cancer,42,Private
+28e66c7d-6966-4f8c-874c-dcf668c463b1,2024-09-01,Cardiology,Moderate,I10 - Hypertension,23,Government
+beb0f678-4495-4b2f-9759-8dc2fb50dfc7,2024-02-10,Cardiology,Mild,E11 - Type 2 Diabetes,85,None
+38800a48-0d93-4186-8c0f-191020e7f185,2024-01-03,Emergency,Mild,R07 - Chest Pain,29,Government
+73b8331a-b084-4201-9855-34d6cdec2949,2024-03-13,ICU,Mild,R07 - Chest Pain,17,Government
+6200595e-4b43-49ae-889c-342ce12f8efb,2024-02-24,Pediatrics,Mild,J45 - Asthma,85,Government
+a493a031-983b-4e60-bded-5c96345051e0,2024-08-17,Emergency,Mild,R07 - Chest Pain,82,Private
+31c10832-9cba-4a5f-a77b-8e81e607219d,2024-12-12,Orthopedics,Mild,R07 - Chest Pain,63,Private
+2ddb4c3d-f4e9-4f32-a140-0ddb1c43c1f4,2024-09-15,ICU,Mild,J45 - Asthma,25,None
+77e7405c-5240-49bc-8bab-6fa4d6c74f6b,2024-08-17,Emergency,Moderate,S72 - Hip Fracture,82,Private
+9b2a7f32-c3b5-4e6d-bd4a-703866f99b2e,2024-11-29,Emergency,Mild,S72 - Hip Fracture,47,Government
+47a34bc4-7552-493e-be90-d5daa82d67e9,2024-08-11,Orthopedics,Mild,J45 - Asthma,85,Private
+dc276110-b111-429a-ac0c-ef097b986209,2024-12-26,Emergency,Moderate,E11 - Type 2 Diabetes,35,Government
+e75162b4-eac3-4014-9486-a04ba875930e,2024-03-01,ICU,Mild,J45 - Asthma,71,Government
+aeb1f0df-422c-4d61-8c87-41e1f992759d,2024-02-01,Oncology,Mild,S72 - Hip Fracture,37,Government
+3707788c-7c8d-49b8-a539-b203802374c5,2024-03-27,Neurology,Moderate,S72 - Hip Fracture,12,Government
+e03e62da-624b-40ba-b3d2-40a04d3c4507,2024-12-21,Emergency,Mild,K21 - GERD,21,None
+ec46e304-5546-482a-87fb-8bcfa302338e,2024-06-11,ICU,Severe,I10 - Hypertension,22,Government
+3adf8e3f-99f8-4ae1-8671-5b46eb460c2a,2024-02-22,Neurology,Mild,S72 - Hip Fracture,10,Government
+34c88f14-ccb1-4d77-a790-6775d254691f,2024-09-04,Cardiology,Mild,E11 - Type 2 Diabetes,6,Government
+992dfa57-c421-485c-acae-267185cac36b,2024-02-10,Emergency,Moderate,E11 - Type 2 Diabetes,99,Government
+307bc4c9-de32-42e1-abb4-376e784b3664,2024-07-08,Oncology,Mild,K21 - GERD,76,None
+65321810-0de9-4700-807b-54e8fac9e895,2024-02-05,Cardiology,Mild,E11 - Type 2 Diabetes,2,Government
+2cd6e687-e3cb-4bca-bd4f-9eebe951e67f,2024-08-19,Pediatrics,Severe,R07 - Chest Pain,62,Private
+115759ad-6125-47a8-8110-754ac618d6d8,2024-02-23,Neurology,Mild,K21 - GERD,57,None
+8a04baaa-c1bc-47f5-b0fc-bd8e71035369,2024-08-15,Orthopedics,Mild,S72 - Hip Fracture,46,Private
+0deae460-8b3b-48e8-9a43-e96a96e6f2d2,2024-11-27,ICU,Mild,K21 - GERD,30,Private
+719c0ff5-028b-460e-a07f-9a5b1c956442,2024-01-12,Cardiology,Mild,S72 - Hip Fracture,26,Government
+82b3f1c0-fe32-4149-a5fd-f131fb11a7aa,2024-03-16,Emergency,Mild,R07 - Chest Pain,47,Private
+445a7c53-93fb-4b84-8c4b-6f939ca95b6e,2024-11-13,Oncology,Mild,I10 - Hypertension,70,Government
+fe6c0184-bbf4-4b8e-8605-c0d6a04a38ad,2024-02-14,ICU,Mild,S72 - Hip Fracture,54,Private
+64a360ea-9266-4010-acf6-42173e17f56e,2024-06-14,Emergency,Mild,C50 - Breast Cancer,48,Government
+c29f5827-ca29-49d4-b106-7b702c33188e,2024-06-20,Pediatrics,Mild,R07 - Chest Pain,59,Government
+b987d554-f23a-4db3-9abe-35ee21d7d03b,2024-07-27,Pediatrics,Severe,I10 - Hypertension,77,Government
+db241336-abc5-4628-8aaa-378472213855,2024-02-15,Neurology,Mild,C50 - Breast Cancer,85,Government
+50f2c96d-de58-4f48-875a-8ae196b86948,2024-07-04,Emergency,Moderate,I10 - Hypertension,62,Private
+a80d5a4e-6de0-4f6b-95d4-795e301bd146,2024-01-09,Emergency,Severe,E11 - Type 2 Diabetes,5,None
+eb0739e3-b2d9-4b85-95e5-4b1ede24f5c5,2024-09-05,Emergency,Moderate,C50 - Breast Cancer,34,Private
+6aa051ac-1e76-40c2-b353-6fd956f5ca62,2024-05-21,ICU,Moderate,S72 - Hip Fracture,84,Government
+704fd0ed-ecae-4488-ae9d-b54b892491a1,2024-09-08,ICU,Mild,R07 - Chest Pain,48,Government
+cc0d37e3-ed47-46c3-a786-cec54567747a,2024-10-02,Pediatrics,Mild,I10 - Hypertension,87,Private
+5740805e-cfad-4475-9f50-24cce59ea93a,2024-09-28,Cardiology,Mild,K21 - GERD,17,Government
+44900466-f7db-405b-bfda-8a6db62b1d30,2024-10-09,Cardiology,Mild,I10 - Hypertension,29,Private
+fce09cc3-9dad-4530-bea4-da65d1b8c0b9,2024-04-11,Cardiology,Mild,J45 - Asthma,49,Government
+9ef226bd-fd10-47d7-b2fa-b604c8fa061a,2024-12-26,Pediatrics,Severe,K21 - GERD,63,Government
+a90d9d21-aac3-487b-9b0d-1e74bd48bced,2024-10-08,Neurology,Moderate,S72 - Hip Fracture,63,Government
+c416be52-8b20-442c-a803-45aff47bfa27,2024-09-06,Oncology,Mild,R07 - Chest Pain,56,Government
+9687df45-12b6-4216-b5b1-e13f5c6d1833,2024-03-27,Cardiology,Mild,C50 - Breast Cancer,64,Private
+e5ef4a53-199d-4be7-84f3-3706f626433d,2024-05-27,Cardiology,Moderate,I10 - Hypertension,89,Government
+06b2aca9-e004-46a9-813d-6b4675ec305a,2024-09-22,Oncology,Moderate,E11 - Type 2 Diabetes,39,Government
+ca3fb3cf-1fa0-47e0-a3ad-fc3c6b1d4872,2024-09-30,Orthopedics,Mild,C50 - Breast Cancer,65,Government
+f922829c-0145-455f-b1ba-fbd131a570eb,2024-03-13,Cardiology,Mild,C50 - Breast Cancer,50,Government
+24d2ff4a-46ae-4eef-bd5f-060b87c14afd,2024-04-18,Orthopedics,Mild,I10 - Hypertension,48,Government
+eff4385e-8a5d-4483-b4de-5efdab70b9af,2024-12-18,Cardiology,Severe,J45 - Asthma,52,Government
+7d36cc0d-36eb-447d-ba31-32a568e6b778,2024-01-13,Oncology,Mild,E11 - Type 2 Diabetes,18,Government
+1760a39b-d586-4c58-ab8a-32ad1010c3f9,2024-10-24,Orthopedics,Mild,E11 - Type 2 Diabetes,4,Government
+bda29098-607d-4845-b80d-06d9814c2327,2024-08-18,Neurology,Moderate,R07 - Chest Pain,49,Government
+9bfe55b8-6d3d-46b5-aaea-3852f238f054,2024-05-05,Emergency,Mild,C50 - Breast Cancer,73,Government
+89f3a320-cdb7-4594-ae77-ed69bfb55dc3,2024-08-11,Neurology,Moderate,C50 - Breast Cancer,2,Private
+3d946fe9-e4b3-4bf5-a396-6f409db4cbac,2024-11-18,Pediatrics,Moderate,C50 - Breast Cancer,91,Government
+e0172c93-97ff-46a3-97d1-72062a4f5b17,2024-06-03,Cardiology,Mild,J45 - Asthma,63,Government
+7cbdbf18-c77d-47f5-8cc5-c20fad5e1bc4,2024-10-05,ICU,Mild,I10 - Hypertension,84,Private
+df0e6fab-5b38-476d-9494-1a2acf3b33ec,2024-04-10,Cardiology,Moderate,C50 - Breast Cancer,41,Government
+e29a5094-d3cd-4b46-b4af-1308a504e104,2024-01-16,ICU,Moderate,S72 - Hip Fracture,24,Private
+0cd2da12-4131-4ae6-b162-d867a45f087d,2024-04-14,Cardiology,Severe,J45 - Asthma,93,Government
+6e6e5bee-f853-467a-9d2b-52cc03b3bd34,2024-05-21,Pediatrics,Moderate,J45 - Asthma,8,Government
+5d6e0488-c303-413d-8681-2b8202d6b2e9,2024-09-10,Orthopedics,Moderate,J45 - Asthma,2,Government
+4644d3bf-f595-4374-9ac3-f138b81f594f,2024-09-20,ICU,Moderate,K21 - GERD,88,Government
+ba13c96f-7a89-47e6-a7dd-cf5bf3fbf60c,2024-02-10,ICU,Moderate,E11 - Type 2 Diabetes,30,Government
+87698b8f-e54f-4d91-8321-c290504e88b6,2024-09-04,Pediatrics,Moderate,C50 - Breast Cancer,60,Government
+48050745-4840-4ea9-aaf1-889d549c93bc,2024-07-29,Orthopedics,Mild,I10 - Hypertension,65,Private
+428beaee-67b0-48e5-8e51-225c74e790f9,2024-11-27,Pediatrics,Moderate,E11 - Type 2 Diabetes,64,Government
+eaef032b-0f8e-4a63-ab2d-0e62ef94d5ba,2024-06-05,Pediatrics,Mild,I10 - Hypertension,12,Private
+0a4bd6e7-61c4-4edb-906c-71e61eb37e28,2024-12-11,ICU,Mild,J45 - Asthma,69,Government
+38d24c19-db76-46f9-a21f-0108265be9de,2024-11-12,Orthopedics,Mild,R07 - Chest Pain,89,Government
+0156006b-6711-4ad6-87c1-185244d39aa9,2024-10-12,Oncology,Severe,C50 - Breast Cancer,83,Private
+50a8758b-654b-4d41-8e36-5d0b43c04e3d,2024-01-13,Cardiology,Mild,J45 - Asthma,55,Government
+7774db0e-88e3-49a0-93f2-f03402bae063,2024-09-30,ICU,Mild,C50 - Breast Cancer,96,Private
+4f26d2d5-8eae-4aba-a804-8eb3a6b09c3e,2024-09-24,Pediatrics,Moderate,J45 - Asthma,11,Government
+89141259-98fd-4109-9919-b786b06d565c,2024-07-04,Orthopedics,Severe,R07 - Chest Pain,48,Government
+f6795a1e-abc2-4dfd-8a01-b3938ab8e2ff,2024-08-31,Oncology,Mild,J45 - Asthma,52,Government
+eb259e97-0d25-4ab5-b360-d00b3c850bd3,2024-07-09,Oncology,Moderate,I10 - Hypertension,32,Government
+d1465690-aa55-48c1-aba2-f63526175eb7,2024-12-03,ICU,Mild,E11 - Type 2 Diabetes,50,Government
+980f3621-35fd-4a36-b67e-811034e6e133,2024-10-15,Neurology,Moderate,R07 - Chest Pain,38,Government
+017bfe06-ec12-4468-8da9-2293797b9b10,2024-10-20,Neurology,Mild,J45 - Asthma,27,None
+0b4dc2e8-502e-479d-bcc3-74858ac9c990,2024-03-12,Orthopedics,Moderate,S72 - Hip Fracture,85,Private
+8a6d1956-95e1-4152-a43c-59ac5700af0b,2024-06-16,Orthopedics,Severe,E11 - Type 2 Diabetes,50,Government
+58f33bf4-732d-4ac3-b7fc-c21557111ae0,2024-01-22,ICU,Severe,E11 - Type 2 Diabetes,89,Private
+59d5ffdc-388b-43d6-8d19-6b70b319918f,2024-05-16,Neurology,Mild,I10 - Hypertension,63,Private
+39aaed99-3d92-4ac3-a679-d656a8bad9f6,2024-10-19,ICU,Severe,C50 - Breast Cancer,7,Government
+e171236f-e8bb-42e1-b29d-17d35107ff91,2024-12-13,Cardiology,Moderate,I10 - Hypertension,56,Government
+e4a4e0f5-2810-4488-a8f3-232d62b3f13e,2024-09-18,Cardiology,Mild,C50 - Breast Cancer,8,Government
+a819e49e-44be-41d6-8efb-66537d31ceb2,2024-07-02,Pediatrics,Moderate,E11 - Type 2 Diabetes,39,Private
+1b2643b8-c64f-47f2-b3f3-3d3f2674d19a,2024-09-22,Oncology,Mild,C50 - Breast Cancer,93,Government
+0f067387-e86b-4ad7-8489-39b6724b5449,2024-09-27,Emergency,Moderate,C50 - Breast Cancer,58,Government
+9de65f9a-88e1-4c33-a0c3-afce8773517d,2024-07-10,Pediatrics,Moderate,S72 - Hip Fracture,73,None
+c2ffe067-6519-4a92-a4ef-38ccd880e939,2024-03-11,Neurology,Mild,S72 - Hip Fracture,4,Private
+e7c1e28c-3110-4fe2-851f-a71fd05fe94f,2024-01-24,Neurology,Mild,I10 - Hypertension,55,Government
+ddb9450e-fee9-49e3-a321-1550579bd9fe,2024-07-10,Oncology,Mild,R07 - Chest Pain,8,Government
+b8bfaa88-ac78-4937-ab0d-ce4f9b762aab,2024-12-11,Emergency,Moderate,I10 - Hypertension,70,Government
+0cd5791c-516b-46a5-9dbf-dd9cf736f0d3,2024-06-15,ICU,Mild,C50 - Breast Cancer,42,Government
+6fef154b-fe53-4a00-8060-1a64991c8284,2024-08-14,Emergency,Moderate,K21 - GERD,30,Government
+aea60a7b-7980-437d-b228-ec8f049a3f15,2024-02-23,Neurology,Severe,C50 - Breast Cancer,76,Government
+98f39116-8eb7-44bf-bbb1-87fcbadbeeba,2024-08-06,Emergency,Moderate,K21 - GERD,77,Private
+b4958576-8a9a-46b1-b4b3-916d9019d42c,2024-11-18,Cardiology,Severe,C50 - Breast Cancer,59,Government
+36e92415-2379-4eb7-ba01-04a16cd4314a,2024-05-16,ICU,Mild,K21 - GERD,72,Government
+6207d525-6114-4ce5-94ab-08055a9ba362,2024-08-08,ICU,Moderate,C50 - Breast Cancer,26,Government
+c932bc2e-e738-4488-bc64-2203f6a1e5af,2024-06-23,ICU,Severe,R07 - Chest Pain,6,Private
+db24d8be-6d13-448d-b5a3-0236fe8def93,2024-05-01,Pediatrics,Moderate,S72 - Hip Fracture,61,None
+ebc4e6b0-f9b2-47b2-9059-e231bbe3dce0,2024-11-21,Neurology,Moderate,K21 - GERD,73,Government
+e87c9bb6-96d1-471c-9e1c-0ad6fbfeac76,2024-12-17,Emergency,Moderate,K21 - GERD,65,Government
+7057823e-aec7-4b57-a43d-7e8a755e55ca,2024-06-13,Cardiology,Severe,J45 - Asthma,92,Government
+bdcab76a-194d-4fdd-ae9e-dc10dca6f2e6,2024-06-22,Emergency,Moderate,K21 - GERD,98,Government
+fe615c5f-27a5-487a-a4d7-6aee50ae495d,2024-04-14,Oncology,Mild,C50 - Breast Cancer,57,Private
+a4763020-fef6-4994-900f-9478eada3f56,2024-02-29,Emergency,Moderate,I10 - Hypertension,26,Government
+88b55a3c-7660-49a8-b864-8217044d07ea,2024-09-07,Emergency,Severe,K21 - GERD,16,None
+f5cf3446-21b0-4dd6-ae0b-14832dcc25ea,2024-09-14,ICU,Mild,J45 - Asthma,74,Private
+484273c1-08e8-4c21-9055-f139569f4016,2024-10-14,Neurology,Moderate,I10 - Hypertension,60,Government
+d18801ac-bc25-4e88-af70-d0a2897d9825,2024-09-12,Neurology,Mild,S72 - Hip Fracture,99,Government
+dfa89dff-f13e-467a-bdf1-09366b246b04,2024-01-14,Emergency,Mild,S72 - Hip Fracture,27,None
+86cbe556-4fb7-49c8-871e-b5213504db9f,2024-04-09,Emergency,Mild,C50 - Breast Cancer,10,Government
+a05b1aa0-138d-4008-92fa-7bdea67d132d,2024-07-10,Cardiology,Severe,R07 - Chest Pain,54,Government
+112756b2-80a8-4605-91b2-e8d176799bba,2024-02-09,Neurology,Mild,R07 - Chest Pain,16,Government
+e07f2fab-5882-436c-b18c-9869dce71542,2024-06-24,ICU,Mild,J45 - Asthma,26,Government
+b0141b58-095c-4c38-9749-53c1544a4ea3,2024-07-22,Oncology,Mild,E11 - Type 2 Diabetes,76,Government
+d1c65c15-5dff-4aec-acaf-74fc5e1c6835,2024-07-31,Orthopedics,Moderate,J45 - Asthma,73,Government
+525c52c3-65b5-43bf-a37e-9f7f34c73a39,2024-11-16,ICU,Mild,C50 - Breast Cancer,80,Government
+65b41311-3a47-42f3-86f3-4bed9cec6a4b,2024-01-24,Emergency,Moderate,C50 - Breast Cancer,83,Government
+9f2d6e40-0d39-4be6-83b8-123403acbcd3,2024-07-24,Emergency,Mild,S72 - Hip Fracture,63,Government
+a27cf1c6-d2a4-410e-879e-f1989de44a2a,2024-06-28,Cardiology,Mild,K21 - GERD,59,Government
+a2f8239c-498c-414e-9f14-8180c1f438dd,2024-12-14,Emergency,Moderate,J45 - Asthma,78,Private
+8eaa21aa-ce29-4baa-9aa2-c06251d67d52,2024-03-14,Emergency,Mild,C50 - Breast Cancer,49,Government
+24193e19-6e63-496b-9f4e-0fec1957794a,2024-05-12,Neurology,Severe,S72 - Hip Fracture,5,Government
+3dfa03d1-0874-4d8e-89ed-3a7ae42029d3,2024-10-11,Neurology,Mild,E11 - Type 2 Diabetes,4,Government
+79db9073-7746-4084-b241-445f26aea45c,2024-04-15,Neurology,Mild,C50 - Breast Cancer,10,Government
+f9c7fc63-c830-4503-9daf-41f70bca82b9,2024-12-19,Cardiology,Mild,E11 - Type 2 Diabetes,82,None
+ed04a837-0fd5-4aec-a6c3-47abb972fe2b,2024-08-27,Oncology,Mild,R07 - Chest Pain,44,Government
+43e9a8c2-88e9-4d6d-8f86-c31aab46f9f5,2024-01-22,Pediatrics,Severe,R07 - Chest Pain,95,Government
+ceb32b1e-ff70-471f-b108-5a14ef89b145,2024-03-31,Pediatrics,Severe,J45 - Asthma,10,Government
+0c2ece72-70d0-4247-937c-75001bcd5a42,2024-04-28,Pediatrics,Moderate,I10 - Hypertension,60,Private
+6f8bb37b-b0ad-4cde-885e-538d6b8f78e9,2024-12-26,Oncology,Mild,I10 - Hypertension,38,Government
+70d1badb-97e9-4f29-9410-21ec218a4a5c,2024-03-08,Orthopedics,Severe,E11 - Type 2 Diabetes,39,Government
+acb4b645-ec36-40d6-a480-333c749399a3,2024-01-16,Emergency,Severe,J45 - Asthma,29,Government
+616bd730-2072-4f94-936a-2f2d55196aa4,2024-03-02,Neurology,Mild,R07 - Chest Pain,51,Government
+0dda8d3c-d798-4a0d-a6e4-8a2e3077ac41,2024-04-16,Pediatrics,Mild,J45 - Asthma,88,Government
+3aea3b2b-7a17-4fc2-a27c-c2db6b5ec25c,2024-01-12,ICU,Mild,C50 - Breast Cancer,88,Private
+8af91d9b-f7f4-441e-8fda-e872a564e1d4,2024-10-07,Cardiology,Moderate,K21 - GERD,23,Government
+99c2c742-6d46-4263-85cb-52b9c0deb913,2024-01-07,Oncology,Moderate,R07 - Chest Pain,73,Government
+a8234a85-1353-4581-9bad-a693d3d3dfb8,2024-04-13,Neurology,Mild,J45 - Asthma,29,Government
+ee63f5cb-7a5b-453b-ba72-9f43d6219f0c,2024-05-05,Pediatrics,Mild,R07 - Chest Pain,41,Government
+f62f55ed-365e-4d7f-866f-28bbfd40bcee,2024-05-22,Emergency,Severe,K21 - GERD,38,Government
+b99dc84b-293c-46e3-abf9-81bdb565897e,2024-05-10,Pediatrics,Mild,E11 - Type 2 Diabetes,45,Government
+c632262d-60c4-42d3-82fd-93ac27c38b26,2024-01-13,Neurology,Moderate,E11 - Type 2 Diabetes,15,Private
+a3e6d5f5-271d-4932-9af7-98103926355d,2024-06-21,Emergency,Mild,K21 - GERD,21,Government
+20eab926-ac8b-4395-977f-2f75f4f8af95,2024-08-01,Oncology,Moderate,J45 - Asthma,41,Government
+a1b9ccad-8122-4e0e-b787-018664c7d775,2024-07-04,Oncology,Moderate,J45 - Asthma,54,Government
+3d95202e-3fad-463b-aa6d-bb2affb84c55,2024-01-30,Pediatrics,Mild,S72 - Hip Fracture,76,Government
+71b08b17-d7c5-4027-be76-61e5960d1ebe,2024-11-29,ICU,Moderate,E11 - Type 2 Diabetes,5,Private
+a4c79d74-d7e2-4f6e-815b-3423fe7e21b1,2024-07-11,Neurology,Severe,J45 - Asthma,99,Private
+4e7cfc62-30ad-4714-ac55-81685cafb360,2024-01-13,Emergency,Mild,E11 - Type 2 Diabetes,48,Private
+9885a5bf-0714-4828-85a2-a9646da584db,2024-11-07,Oncology,Mild,I10 - Hypertension,50,Private
+d7e1d273-a69a-4b78-b82a-49bc2ecbf625,2024-11-16,Cardiology,Mild,S72 - Hip Fracture,47,Government
+120d6b77-d988-4ce4-ad23-5a0044e130c6,2024-08-19,Emergency,Mild,J45 - Asthma,65,Government
+59ad1cbe-0bbf-413c-b734-6b17c5da0057,2024-10-21,Orthopedics,Mild,K21 - GERD,95,Private
+cc04c4a4-a2d7-4633-9d64-4b3173052377,2024-04-14,Orthopedics,Mild,I10 - Hypertension,56,Private
+822c19ef-8d56-4764-9551-eb12aac803b1,2024-02-03,Neurology,Severe,C50 - Breast Cancer,8,Government
+158beb6a-8033-4815-8105-f0d78297a529,2024-11-17,Emergency,Severe,K21 - GERD,22,Government
+c13fd78a-c719-4dd9-9b66-f4b7e8130c9a,2024-12-08,Pediatrics,Moderate,R07 - Chest Pain,14,Government
+776f3ccd-eef4-478f-9db0-255af0fb1ea7,2024-06-04,Pediatrics,Moderate,I10 - Hypertension,38,Government
+c72cbbd5-20f9-49e4-96cd-5250d21d2df5,2024-01-30,ICU,Mild,K21 - GERD,77,Government
+f7c36b8a-3daa-4942-ba28-a632e122225d,2024-06-13,Cardiology,Severe,R07 - Chest Pain,42,Private
+1a23a1bf-d5aa-4d54-9652-d591752dd952,2024-04-02,Oncology,Severe,S72 - Hip Fracture,22,Private
+7301047c-fce8-4c9e-a534-040e376db0ba,2024-01-16,Cardiology,Moderate,R07 - Chest Pain,60,Government
+46f80f95-e2d3-4e5e-8558-00a921520feb,2024-07-18,Emergency,Mild,S72 - Hip Fracture,67,Government
+5d4ae5dc-d86b-47b2-ab03-cdb0c5635199,2024-12-13,Neurology,Mild,E11 - Type 2 Diabetes,40,Government
+ad7fde95-9b1a-4f24-a0fb-024275c4309f,2024-08-22,ICU,Mild,K21 - GERD,56,Government
+2933f945-acc4-4693-b19d-5fdb8d3da9e9,2024-08-26,Oncology,Mild,R07 - Chest Pain,99,Government
+b1189b3e-e3c4-4dda-879c-29b7473bea71,2024-09-13,Emergency,Severe,J45 - Asthma,78,Private
+05fe7bf7-1b20-4e9b-849f-2f3496002862,2024-10-13,ICU,Moderate,S72 - Hip Fracture,98,Government
+ebd8dc75-ed0f-4d65-8c42-500d74e32e9b,2024-12-16,Orthopedics,Mild,R07 - Chest Pain,42,Government
+c9948a32-57e2-4480-8d23-37cbb13b1865,2024-03-23,Oncology,Moderate,E11 - Type 2 Diabetes,43,Private
+f408c304-b36a-4d2c-a19e-096c30d93e3a,2024-08-30,ICU,Moderate,K21 - GERD,5,Government
+ee492a7c-417f-4c95-aea4-f305996d5a3d,2024-06-04,Cardiology,Mild,S72 - Hip Fracture,12,Government
+3bf0bd51-22be-4d27-a9c3-60640cd107c4,2024-02-15,Pediatrics,Mild,I10 - Hypertension,8,Private
+648f7de9-983e-4b80-923e-9e11963a090e,2024-12-26,Emergency,Mild,C50 - Breast Cancer,31,None
+23aee814-7125-4d24-8092-f754a7ce6a48,2024-07-15,ICU,Moderate,S72 - Hip Fracture,56,Private
+5e0681cd-8e26-465d-8984-5d9d61efe232,2024-12-23,Neurology,Moderate,C50 - Breast Cancer,12,Government
+39c1a385-853a-4e6b-94bf-e8586e1bd69b,2024-10-23,Emergency,Severe,I10 - Hypertension,35,Private
+8665bc2a-6e0a-41b7-bf28-83874f6ed720,2024-10-09,ICU,Moderate,I10 - Hypertension,61,Government
+cf34c2f8-397e-46d6-b627-116006d8b3e2,2024-03-13,Neurology,Mild,J45 - Asthma,86,Government
+3fde3670-db99-4354-b5d5-c4e71cf0a15c,2024-11-21,Oncology,Mild,S72 - Hip Fracture,74,Private
+525c99f9-8c85-4190-8fc8-f9bf2d4c0002,2024-12-27,ICU,Mild,S72 - Hip Fracture,44,Government
+1ddca359-5314-4d2d-acad-9ade13912ddd,2024-11-07,Neurology,Mild,E11 - Type 2 Diabetes,16,Private
+e5d1c78f-62ef-4304-aae9-5513af4ed0d3,2024-07-20,Emergency,Mild,S72 - Hip Fracture,79,Government
+6b57d0a7-87b9-4552-8ed0-46c7ec13ea69,2024-12-12,Oncology,Moderate,R07 - Chest Pain,82,Government
+4e8ccf95-7366-4629-93f1-3b43a255c2aa,2024-04-29,Cardiology,Moderate,J45 - Asthma,93,Government
+2ed5a719-1fae-40b1-86a3-1ee5e2615805,2024-06-20,Emergency,Moderate,K21 - GERD,41,Government
+79a9266a-78c4-4796-b6be-05cb537fbe8f,2024-03-08,Pediatrics,Mild,J45 - Asthma,93,Government
+082bf824-f1c1-41d3-809b-13065e36f8be,2024-05-10,Orthopedics,Severe,I10 - Hypertension,19,Government
+ae3155f7-4aed-4c4d-972d-6a76bd600516,2024-03-01,Orthopedics,Mild,E11 - Type 2 Diabetes,88,Private
+ff2204a0-017a-4929-b22c-18c2c2fc660a,2024-07-26,Neurology,Mild,C50 - Breast Cancer,26,Government
+0c74052b-6225-44de-a530-633e7ff000ab,2024-10-11,Neurology,Mild,J45 - Asthma,44,Private
+d571c750-2683-416e-a079-c5bc032e604d,2024-11-18,Oncology,Severe,E11 - Type 2 Diabetes,54,Government
+ea6312b3-0410-49ae-b2c4-a5b96353617d,2024-09-12,Emergency,Severe,I10 - Hypertension,91,Private
+4fb1ffdd-933d-4b1b-90de-198eb9209f0e,2024-06-24,Cardiology,Mild,S72 - Hip Fracture,61,Private
+3b5c2a2d-bc80-43f2-92fe-744f20fed84c,2024-10-19,Neurology,Moderate,E11 - Type 2 Diabetes,18,Government
+81afc8b8-eefa-407c-9d98-27ae37c6bd26,2024-01-10,Neurology,Mild,C50 - Breast Cancer,75,Private
+2e41ea9d-e2bb-475f-b285-2dad5a2e7011,2024-04-03,Emergency,Mild,C50 - Breast Cancer,95,Private
+a3fc8501-4a26-4dd0-ba79-e43600b957d1,2024-09-03,Emergency,Mild,I10 - Hypertension,19,Government
+dca20e7b-69ea-4bb4-9d79-52f002b12656,2024-02-21,Cardiology,Moderate,I10 - Hypertension,41,Private
+652b0db2-c346-4d56-993f-079470232a1e,2024-11-27,ICU,Mild,I10 - Hypertension,47,Government
+18e135bb-dc86-4095-95ab-753ab7326dae,2024-01-19,ICU,Moderate,K21 - GERD,7,Private
+5ae8d4b9-034c-4516-beb4-2c3a4c485214,2024-11-14,Cardiology,Moderate,R07 - Chest Pain,85,None
+38a9c7b4-d30e-4fa8-8887-e7375b23543c,2024-11-10,Oncology,Moderate,I10 - Hypertension,58,Government
+542cdf63-ac21-42b9-b2ad-56b50d946559,2024-02-22,Emergency,Mild,I10 - Hypertension,85,Private
+a5180ae2-1690-4ddd-ac49-5a3aaf8f28c0,2024-04-29,Oncology,Moderate,K21 - GERD,16,Government
+d601b0c9-2e7d-46cf-b2b7-c1075a3b72e9,2024-02-13,Cardiology,Severe,E11 - Type 2 Diabetes,52,Government
+0469ad2b-4a4b-48a6-a9a0-9a1000c6c4bc,2024-07-14,Neurology,Mild,J45 - Asthma,24,Government
+aa21571d-b374-4871-83f8-9df316defdb4,2024-03-23,Neurology,Mild,C50 - Breast Cancer,76,Private
+94077da5-b63c-474f-a483-e40db7148a96,2024-07-14,Pediatrics,Severe,C50 - Breast Cancer,86,Government
+a25bcd40-5354-4a52-93c3-0c3d827c9738,2024-05-23,Pediatrics,Severe,I10 - Hypertension,78,Government
+8e86fdad-9c1b-4565-b0ea-2b03008ace78,2024-06-16,Cardiology,Mild,K21 - GERD,35,Government
+a23d95a7-5d22-49e0-b6e8-54e819485bdb,2024-09-02,ICU,Moderate,S72 - Hip Fracture,68,Private
+9c750d06-3691-49aa-bd3c-797539651bc8,2024-09-23,Pediatrics,Moderate,R07 - Chest Pain,75,Government
+a60e3685-5622-4cee-8e44-11e2453f9a06,2024-07-22,Pediatrics,Mild,J45 - Asthma,22,Government
+9a67c36f-a95f-45c1-8236-572c12da9a18,2024-03-25,Cardiology,Moderate,R07 - Chest Pain,58,Government
+baf1b43f-76fa-4d08-96b0-880f6ad3f3ba,2024-11-26,Neurology,Mild,C50 - Breast Cancer,80,Government
+d78895eb-0db1-4f50-b05c-cb1b36bad899,2024-12-08,Oncology,Mild,I10 - Hypertension,19,Private
+b7dbef7c-c977-400c-b6f1-c7101883f983,2024-07-08,Orthopedics,Moderate,R07 - Chest Pain,29,Private
+1f6bebfb-c8a3-4b8b-81de-d2fa109a911c,2024-03-11,Cardiology,Mild,S72 - Hip Fracture,53,None
+af7abde4-4216-4a60-a048-61c609fa3b23,2024-06-14,ICU,Severe,C50 - Breast Cancer,7,Private
+a0978fd3-4c60-4549-8641-4980343d1918,2024-06-10,Pediatrics,Mild,E11 - Type 2 Diabetes,59,Government
+50a18850-f736-45c0-b05d-bb924872f931,2024-09-13,ICU,Mild,K21 - GERD,80,Government
+db763c0f-f673-4635-a56f-8e4ba3387e7c,2024-11-17,Oncology,Severe,E11 - Type 2 Diabetes,46,Government
+a9f0a970-22da-4647-9dc3-1983c8d43f98,2024-12-17,Cardiology,Severe,I10 - Hypertension,99,None
+7871e765-281a-415b-a20a-05ba53acb392,2024-01-16,Emergency,Mild,E11 - Type 2 Diabetes,80,Government
+8cf05cf6-8704-45af-8862-50ae48b4d317,2024-08-28,Orthopedics,Moderate,C50 - Breast Cancer,50,Private
+51165bb4-e896-48ab-824a-9068e310c9bd,2024-08-06,Pediatrics,Severe,I10 - Hypertension,2,Government
+42804370-153c-4f72-9abd-7fb118ad0f20,2024-03-31,Oncology,Moderate,K21 - GERD,32,Government
+4d6e2026-1379-4683-bc47-48ca24f5ebcb,2024-03-20,Cardiology,Mild,I10 - Hypertension,31,Government
+f634bf79-44d4-476c-824b-c3daa65e3c23,2024-04-10,Neurology,Mild,S72 - Hip Fracture,41,Government
+96df3f07-aaae-460f-9b1b-c10af437a233,2024-03-07,Neurology,Mild,K21 - GERD,27,Government
+ad848eb0-8b43-47ea-8d93-b34c3a92e993,2024-01-10,Emergency,Moderate,C50 - Breast Cancer,38,Private
+502cf677-55c2-4b5e-a8f0-f3d11e04e8e4,2024-05-06,ICU,Moderate,I10 - Hypertension,22,Government
+0ffe51ff-4e01-4050-90cf-1cda08b71fa0,2024-05-21,Cardiology,Mild,K21 - GERD,77,Private
+00936b88-ca17-4ee3-82ec-f7ead1a59cbf,2024-04-30,Orthopedics,Moderate,J45 - Asthma,89,Private
+1ac30685-a9d0-4448-93eb-db14a54895a1,2024-07-14,Pediatrics,Mild,I10 - Hypertension,96,Government
+b960dc25-e331-446c-9fd7-93e35cb276f1,2024-12-06,Pediatrics,Moderate,E11 - Type 2 Diabetes,78,Government
+539706b4-4e7c-494a-95bc-fa8f8a214ca8,2024-08-13,Pediatrics,Mild,C50 - Breast Cancer,27,Government
+7cb84638-286c-4eae-930d-d943a5575b4a,2024-10-06,Oncology,Severe,R07 - Chest Pain,69,Government
+3b416926-165b-4a03-879c-6f7926f09d65,2024-03-22,Orthopedics,Mild,R07 - Chest Pain,64,Private
+ab133351-3532-4a58-959c-c158c03c14df,2024-08-26,Pediatrics,Mild,I10 - Hypertension,2,Private
+cbab6edd-b3c9-4391-b5b0-2c2b24936b5d,2024-03-07,Cardiology,Moderate,R07 - Chest Pain,73,None
+53d3b742-c364-4bba-a612-46c2b2e0f56f,2024-02-07,ICU,Severe,C50 - Breast Cancer,53,Government
+89836368-9f24-45df-8e19-5b23d819cc56,2024-05-21,Neurology,Mild,S72 - Hip Fracture,76,Private
+3c604223-93d2-405e-bd24-b8eb5abc74d4,2024-06-02,Neurology,Mild,K21 - GERD,99,Government
+21ebb4d8-22d8-41c6-ac4d-25ca3c6e8bf4,2024-05-31,Cardiology,Mild,C50 - Breast Cancer,37,Government
+4e6a7adc-598a-4794-b77f-cb9d79763ad7,2024-08-29,Neurology,Moderate,K21 - GERD,93,Government
+52866395-3fca-4d0d-94f0-4aaa080cd8ed,2024-03-01,Oncology,Moderate,I10 - Hypertension,25,Government
+5deb4e90-5e7b-4178-a0df-920c9b13fb6c,2024-12-03,Orthopedics,Mild,R07 - Chest Pain,9,Government
+9022cc69-81fe-4af5-bdca-b84f9260a2aa,2024-09-15,ICU,Mild,E11 - Type 2 Diabetes,31,Government
+b6b3d0d8-9519-4e89-a949-8420075b4378,2024-03-29,Neurology,Moderate,E11 - Type 2 Diabetes,87,Private
+210c8321-ae56-486a-bfd4-e83df0a87d1b,2024-11-06,Cardiology,Mild,C50 - Breast Cancer,32,None
+1069b6ee-90ed-4f73-8244-fabc003b7586,2024-07-23,Pediatrics,Mild,J45 - Asthma,88,Government
+87c75d4f-c313-477a-b7e6-db20a7451a90,2024-03-30,Cardiology,Mild,C50 - Breast Cancer,5,Government
+412f2066-b905-4db3-ac9b-a0094266c6c1,2024-10-24,ICU,Mild,R07 - Chest Pain,9,Private
+e199c6b5-6c50-44b9-ab29-afd3c5fe207f,2024-07-31,Emergency,Severe,K21 - GERD,25,Government
+d63dd6b1-24bd-4d36-89d6-375e38dd5803,2024-04-01,Orthopedics,Moderate,E11 - Type 2 Diabetes,89,Private
+b5cc9a6f-f8be-409b-b248-b31d40406fcf,2024-07-10,Neurology,Mild,R07 - Chest Pain,94,Government
+b2223317-5dd7-4bd8-b72d-1392a381e947,2024-07-08,ICU,Moderate,R07 - Chest Pain,98,Government
+5a5c8893-f19b-4a5c-a55c-5dbb68e3d6da,2024-03-30,Oncology,Mild,C50 - Breast Cancer,38,Private
+33b10741-e360-452d-81e7-851b084692d7,2024-06-16,Orthopedics,Mild,S72 - Hip Fracture,3,Government
+908bb522-4932-43cf-bb9d-449765bb925c,2024-10-23,Oncology,Mild,J45 - Asthma,26,Government
+b05d664d-173b-4a06-a492-622bf16d1672,2024-01-05,Pediatrics,Mild,S72 - Hip Fracture,99,None
+99c949ae-78a9-4f46-9591-7668bac26868,2024-10-27,ICU,Moderate,K21 - GERD,59,Government
+46aa57ff-f6cc-4891-a0e9-d4faebea14b0,2024-08-28,Cardiology,Moderate,E11 - Type 2 Diabetes,39,Government
+379a695e-4b0e-4e98-9a8e-1389301e8e88,2024-09-20,Emergency,Severe,C50 - Breast Cancer,73,Private
+d4a0cb01-8aca-4cea-a276-27f4e293741c,2024-07-15,Cardiology,Moderate,K21 - GERD,20,Private
+4338d63f-7ea8-4af6-abca-f65dc5fb2ee1,2024-01-10,Cardiology,Mild,C50 - Breast Cancer,84,Government
+ca763869-871b-4da5-a9d3-40819a8913ce,2024-03-05,Pediatrics,Severe,J45 - Asthma,15,Private
+4fa6381f-d80e-4262-8c4c-46484e2cc32e,2024-02-28,Cardiology,Moderate,C50 - Breast Cancer,71,Government
+487a1677-f26a-49fb-b970-2ddc9af81448,2024-01-23,Orthopedics,Moderate,I10 - Hypertension,21,None
+896d3a3d-ed63-488f-b2e6-f3f2f4ac447e,2024-05-29,Cardiology,Mild,J45 - Asthma,21,None
+5ae232af-d7d1-433c-9686-d6bbb8773e82,2024-03-05,Neurology,Mild,J45 - Asthma,17,Government
+82aa7c28-5152-4ef6-a5d8-f1a935fb17a2,2024-04-01,ICU,Severe,C50 - Breast Cancer,74,Private
+97b940c3-67f0-4802-9954-24994f7e3082,2024-02-21,Pediatrics,Severe,K21 - GERD,3,Private
+2a5c3bcd-1b73-4324-a010-45814e2b8510,2024-01-29,Neurology,Moderate,I10 - Hypertension,67,Government
+ff9f8059-12d3-4455-a54a-91398188f73c,2024-02-01,Neurology,Mild,E11 - Type 2 Diabetes,44,Private
+e534eade-96a8-4614-b8a3-3f93d9e5e1c0,2024-05-19,ICU,Severe,C50 - Breast Cancer,76,Government
+7f4e65d6-774c-4bc2-8807-e7d8a55afd46,2024-01-25,Neurology,Moderate,R07 - Chest Pain,73,Private
+d2b25d56-ac10-4623-ad6c-454d418cdc2a,2024-05-28,ICU,Mild,S72 - Hip Fracture,11,Government
+5b9f8586-f7d1-4d35-a1b4-837d8ee46071,2024-02-23,Orthopedics,Severe,C50 - Breast Cancer,47,Government
+13fd8998-f3b7-43aa-b545-cbec310eadbd,2024-06-19,Neurology,Mild,I10 - Hypertension,39,Private
+5b8b5f84-26d1-471f-a9bb-2688aaca54c6,2024-02-19,Emergency,Mild,E11 - Type 2 Diabetes,47,Government
+81545997-23bf-4b37-bf77-c30220f7629b,2024-02-18,Neurology,Mild,J45 - Asthma,43,Private
+a3c18943-98b0-41a0-be53-2b638cdb36d1,2024-05-15,Orthopedics,Mild,K21 - GERD,92,Government
+1a215e2f-eb99-4f37-9bb4-af21418f531a,2024-02-20,Neurology,Mild,R07 - Chest Pain,71,Government
+a0915d71-6dd7-4504-8d87-4ebe05978ff4,2024-11-14,ICU,Mild,I10 - Hypertension,62,Government
+3a71f75e-2876-4611-b3df-ec3b386f37f1,2024-08-26,Cardiology,Mild,I10 - Hypertension,70,Government
+9513f1d6-157b-421b-bb15-6473f6e6972f,2024-10-11,Pediatrics,Severe,S72 - Hip Fracture,81,Government
+65b83482-2bb8-4017-a087-efb3dc8641a5,2024-01-13,ICU,Moderate,K21 - GERD,61,Government
+dc24147e-8a91-4d8f-97f6-7fa827e1562a,2024-11-30,Emergency,Moderate,S72 - Hip Fracture,2,Government
+0e7172bf-fc3c-4ea9-bfd9-700b06acdfe7,2024-08-09,Orthopedics,Severe,E11 - Type 2 Diabetes,21,Private
+771162d9-1605-4840-a5ca-c0515c4bcf80,2024-06-15,Oncology,Moderate,J45 - Asthma,35,Private
+2924e351-eb95-4076-b151-261664d91f65,2024-11-07,Oncology,Mild,K21 - GERD,10,Private
+d0a9169b-1df1-47d6-abdf-7efa5a358615,2024-02-13,Cardiology,Mild,S72 - Hip Fracture,76,Government
+34ab5108-80e4-4b94-b139-2dd6c5761525,2024-06-17,Neurology,Moderate,E11 - Type 2 Diabetes,16,Government
+37477fb1-8d57-4763-924a-cc047112bc13,2024-11-19,Emergency,Severe,C50 - Breast Cancer,93,None
+ba866816-3bef-476f-a504-3fb42720000e,2024-11-12,Emergency,Severe,E11 - Type 2 Diabetes,11,Private
+ceaa75fa-c9ea-415f-bcb1-77377eb6658f,2024-08-06,Oncology,Mild,K21 - GERD,30,Government
+5beb282d-0b25-48d8-b3f0-4eca5e3262e5,2024-02-03,Neurology,Mild,J45 - Asthma,41,Government
+27836446-d7d2-4d45-85a1-da3764dfd1d7,2024-08-27,Orthopedics,Mild,R07 - Chest Pain,15,Private
+070d5c19-56fc-44f9-9735-3c3b3f936dd9,2024-04-26,Cardiology,Mild,I10 - Hypertension,11,Private
+208f7b43-946d-40f4-928d-b80ef94dc4f5,2024-03-10,Emergency,Mild,R07 - Chest Pain,37,Private
+ef08f493-ecab-4172-8373-b4fb9fad7b14,2024-02-04,Neurology,Moderate,R07 - Chest Pain,5,Private
+384db2df-30b0-43ae-a6c5-6fa16a22892e,2024-11-16,Pediatrics,Severe,R07 - Chest Pain,53,Private
+6308f95d-3c76-4563-a448-1158cc8cd80f,2024-02-05,Orthopedics,Moderate,K21 - GERD,49,Private
+2b0c0832-8ae5-4b42-b01f-4adeedad8775,2024-05-04,Oncology,Mild,C50 - Breast Cancer,80,Government
+9ad8672e-2e72-4ffb-b12c-2ad64ec63778,2024-03-21,ICU,Moderate,J45 - Asthma,78,Government
+df35ecb4-bf33-47c9-b6ba-fe7d35c343fa,2024-06-02,Pediatrics,Severe,R07 - Chest Pain,66,Government
+0912f777-7d10-4dbe-8f57-71e57132d8d7,2024-03-24,Emergency,Severe,K21 - GERD,35,Government
+e950f4dc-82a1-46ce-bb8e-4a8bde4ab62b,2024-04-21,Oncology,Moderate,E11 - Type 2 Diabetes,78,Private
+fb654293-67a3-4f2e-8c7e-735e29f144b5,2024-08-31,ICU,Moderate,J45 - Asthma,81,None
+548b7c70-92af-470d-8535-80699e8e3441,2024-12-17,Pediatrics,Mild,R07 - Chest Pain,73,Government
+78b83361-58bb-44d7-ab7e-d4f288ca8a78,2024-11-23,Pediatrics,Moderate,S72 - Hip Fracture,38,Government
+98ea0189-7e16-4ba3-8888-fca8d2d4ca6f,2024-09-24,Oncology,Moderate,I10 - Hypertension,77,Government
+66dd1dfa-1bf3-4968-85c6-6274decacdca,2024-05-18,Orthopedics,Moderate,J45 - Asthma,47,Government
+6f6ab753-73c1-47f0-aff9-cfc09beadcf7,2024-03-17,ICU,Mild,C50 - Breast Cancer,31,Government
+bbd2c704-106d-4e82-a7c0-98cc3bc62f8c,2024-08-28,Cardiology,Mild,J45 - Asthma,89,Government
+067bd85e-5adc-4898-a0be-5e344eb7567b,2024-12-19,Emergency,Moderate,E11 - Type 2 Diabetes,42,None
+59e5746b-7619-485f-93ab-ad00ab0e0b24,2024-02-15,Cardiology,Mild,S72 - Hip Fracture,56,Private
+be791d06-c298-447d-8529-ca196f24783b,2024-04-03,Orthopedics,Mild,E11 - Type 2 Diabetes,85,Government
+ced8d226-1edd-43f0-a93d-5bbc834acce2,2024-08-20,Emergency,Mild,C50 - Breast Cancer,29,Government
+b5a71467-b40f-460b-a96a-298389f33002,2024-12-11,Orthopedics,Moderate,S72 - Hip Fracture,56,Government
+c7cdccc7-3997-49ab-b059-2a562c8a5889,2024-11-25,Cardiology,Severe,K21 - GERD,75,Government
+28cb4278-b3c2-43d2-8602-832a9fb8518c,2024-09-24,Orthopedics,Moderate,R07 - Chest Pain,17,Private
+353ff512-7c8a-477d-8f6d-24ef3ce294a5,2024-10-08,ICU,Mild,I10 - Hypertension,44,None
+9998a225-f277-42de-8b4d-b5eead616d2c,2024-05-24,Pediatrics,Severe,I10 - Hypertension,68,Government
+34f9ea8e-cdd4-4791-9a57-b0ca4b72866f,2024-01-14,Neurology,Moderate,J45 - Asthma,74,Government
+c35903e3-d2ed-47ca-9675-b99ad45e7ac0,2024-01-12,Cardiology,Mild,K21 - GERD,38,Government
+13069f84-1af3-41ac-b33e-182e688a8afb,2024-11-12,Emergency,Mild,I10 - Hypertension,80,Private
+ddcbd5ac-cbe7-43a1-abc5-5c20c7d0ce29,2024-10-10,Pediatrics,Mild,J45 - Asthma,44,Government
+de623c26-793e-4dc7-ac31-e02ad62825d9,2024-01-30,Orthopedics,Mild,S72 - Hip Fracture,45,Government
+37c92b24-e234-42d7-b171-a16c9472fe95,2024-06-10,Pediatrics,Mild,C50 - Breast Cancer,90,Government
+8675e02e-69c7-4c2b-bab1-35092c6d3594,2024-08-30,ICU,Moderate,S72 - Hip Fracture,12,Government
+e3af538f-c12b-4dc5-aec1-d9b770862dc9,2024-10-08,Oncology,Moderate,I10 - Hypertension,46,Government
+e7192bcb-9b5a-4c5e-a52b-af73f78f6808,2024-10-17,Neurology,Severe,R07 - Chest Pain,43,Private
+89625cc5-b3c8-492b-af55-026660bea808,2024-11-16,Cardiology,Mild,E11 - Type 2 Diabetes,91,Government
+c572a8ae-1b4f-45fc-8dec-f0af4a3b1275,2024-04-28,Oncology,Severe,K21 - GERD,95,Private
+45085d67-b8cc-4983-8352-953417027b6a,2024-07-05,Pediatrics,Moderate,K21 - GERD,12,Government
+30b66d2a-dcf4-4d71-a56f-5b30479ecfdb,2024-12-08,Orthopedics,Mild,R07 - Chest Pain,94,Government
+c2224cab-eabb-4ce2-954c-54ba14e3ab93,2024-10-15,Neurology,Mild,E11 - Type 2 Diabetes,15,Government
+d822dfe6-2789-4f65-a68c-fface96e7756,2024-07-29,ICU,Mild,C50 - Breast Cancer,29,Private
+1e96f687-5e38-41ab-97e9-5d50227f5ec8,2024-10-20,Pediatrics,Mild,J45 - Asthma,70,Private
+533df1cd-573d-401a-bbc5-a3bd3f4af2a7,2024-09-29,Oncology,Moderate,C50 - Breast Cancer,74,Private
+3e08257b-017a-4f03-8f7e-d897e20edfd0,2024-07-22,Orthopedics,Moderate,R07 - Chest Pain,59,Government
+9f363a55-e07c-4273-94c1-f155caae6466,2024-07-30,Oncology,Severe,R07 - Chest Pain,32,Private
+4fedc8c6-3bb4-4a5d-84ae-f6e17d2ba8af,2024-05-26,Emergency,Moderate,I10 - Hypertension,97,Government
+c7ca8784-d826-4b06-af92-5b8c3c7a3f7c,2024-06-06,Cardiology,Moderate,R07 - Chest Pain,80,None
+6fa0d515-3785-4db4-bfad-4ec3db7f40ea,2024-09-15,Pediatrics,Mild,E11 - Type 2 Diabetes,97,Private
+39882144-364c-4c4d-9f43-2a12805559ad,2024-05-06,Oncology,Mild,K21 - GERD,72,Private
+fd90ee6f-1266-4b56-a00b-fde84b714c3e,2024-01-23,Pediatrics,Moderate,J45 - Asthma,70,None
+35f31472-e6ca-4f08-8622-0e91d581a9b1,2024-09-08,Orthopedics,Severe,J45 - Asthma,50,None
+f4d4773b-8f1e-4fc2-8528-f9a23e27eccf,2024-11-23,Neurology,Mild,K21 - GERD,40,Government
+3699e7df-463b-419f-beb2-3ddd4ee480c2,2024-06-10,ICU,Mild,K21 - GERD,64,Private
+9bbcad55-7728-44ae-bb3c-7e9a145a41ca,2024-08-04,ICU,Mild,R07 - Chest Pain,98,Government
+9d7116f9-0d3f-424d-92d6-ba36fffc8da8,2024-03-31,ICU,Moderate,E11 - Type 2 Diabetes,45,Private
+3ba26c92-bceb-4b04-8cff-6640b3d45454,2024-10-29,Pediatrics,Moderate,E11 - Type 2 Diabetes,82,Government
+f21fad75-b645-4300-98da-64cfac498265,2024-01-10,Pediatrics,Mild,C50 - Breast Cancer,76,Government
+d62017c9-d901-48bd-aaa2-760c1fe3ef1f,2024-02-07,Neurology,Severe,R07 - Chest Pain,41,Government
+9df96d1b-ffc9-42b3-aa11-e96217aa4ae0,2024-08-19,ICU,Mild,I10 - Hypertension,90,Government
+7734531f-411c-450e-88bf-44722494ccca,2024-08-28,Emergency,Mild,R07 - Chest Pain,1,Government
+a1c39df2-a4fd-482b-8629-e2737213bcdf,2024-02-21,ICU,Moderate,E11 - Type 2 Diabetes,76,Government
+c497bc12-3630-452f-8d5e-bb3b1ce129aa,2024-06-29,Oncology,Moderate,I10 - Hypertension,6,Private
+f446f122-25a8-4535-bbc2-4e56cc61ea8f,2024-11-13,Pediatrics,Mild,K21 - GERD,94,Government
+81a900af-e3d7-46d1-a568-d5a8d5f9ace0,2024-10-31,Oncology,Moderate,I10 - Hypertension,88,Private
+4dfb0a09-425c-4ecf-8140-58e2523709b0,2024-04-26,Cardiology,Mild,C50 - Breast Cancer,27,Government
+c49937b6-1626-469c-bd2b-6d1bcd062eba,2024-08-19,Orthopedics,Moderate,K21 - GERD,53,Government
+0c70e7ac-739b-48cf-b97d-bfc0795fbc37,2024-08-18,Oncology,Severe,S72 - Hip Fracture,89,Government
+fd1e4a82-fe93-426e-86e3-f69c34911bfb,2024-10-19,Orthopedics,Moderate,K21 - GERD,47,None
+b716b3d4-f8d3-45fa-a02c-da020aa560e9,2024-11-18,Orthopedics,Severe,K21 - GERD,90,Private
+603a7686-8ce2-49bf-92a7-f7652463a02a,2024-08-17,Oncology,Severe,I10 - Hypertension,69,Private
+83cc7898-2b0e-4e9d-9332-08c1f7d97386,2024-02-13,Orthopedics,Mild,E11 - Type 2 Diabetes,72,Government
+6b651b75-039c-4ee3-9fbf-f46c0ed4c725,2024-06-02,Pediatrics,Mild,K21 - GERD,50,Government
+f50c4139-f60b-4dd6-9424-5f63805ae748,2024-07-24,Cardiology,Severe,K21 - GERD,45,Private
+5aca8a9a-b617-4109-803e-d2eef77aeeb4,2024-09-19,Emergency,Moderate,S72 - Hip Fracture,53,Private
+90a2d491-e77a-4fe2-a4c4-4489a04c167d,2024-04-10,ICU,Moderate,C50 - Breast Cancer,34,Government
+ecec4831-3a83-4479-a747-6a9bb4884fdf,2024-10-03,Neurology,Moderate,S72 - Hip Fracture,25,Government
+9845d7b9-723f-410f-ae5e-b62f0f57a67b,2024-01-31,ICU,Severe,J45 - Asthma,22,Government
+541aa86f-2aa1-4017-b131-0fb7752eacc0,2024-06-13,Emergency,Moderate,E11 - Type 2 Diabetes,32,Government
+c820e786-144a-4beb-9451-c8eb0f53b9d8,2024-03-15,Pediatrics,Mild,K21 - GERD,10,Private
+909450cb-9bf7-46b2-adf8-42a6a7e97ff8,2024-10-02,Neurology,Mild,S72 - Hip Fracture,58,Government
+68c39a23-9310-4ac6-b439-148b25b7e798,2024-06-28,Cardiology,Severe,S72 - Hip Fracture,38,Government
+351dacb3-2044-4906-a08e-9b771bce343e,2024-07-17,Emergency,Mild,E11 - Type 2 Diabetes,76,Private
+73e98981-2e74-4b00-97fa-343b535103e2,2024-01-22,Emergency,Moderate,S72 - Hip Fracture,54,Government
+b2e4c2c4-18f1-4770-8bcb-9944eed22fea,2024-02-15,Orthopedics,Mild,J45 - Asthma,54,Government
+ef9299fd-e407-4cef-a189-0e1cc1ddf8ef,2024-04-02,Emergency,Mild,E11 - Type 2 Diabetes,54,Government
+83e2e137-95b6-4e9d-b052-fced1776e2c4,2024-11-16,ICU,Moderate,K21 - GERD,41,Government
+7d6a90b6-d5ae-4c55-8d82-5bd39c140fce,2024-03-13,Cardiology,Severe,C50 - Breast Cancer,51,Government
+02d5a030-c2de-4385-acde-501a69a827d1,2024-05-09,Neurology,Severe,J45 - Asthma,46,Government
+cbee95e5-ba1c-432d-91a9-6040ff4b37c9,2024-10-21,Emergency,Moderate,R07 - Chest Pain,99,Government
+d006b2c0-375c-45af-96c0-30e025361f98,2024-08-30,Orthopedics,Moderate,I10 - Hypertension,42,Government
+519ec045-aa8f-4cc8-b760-0ef7d008c311,2024-04-23,ICU,Mild,C50 - Breast Cancer,61,Private
+8489c2df-71f3-4019-9b9e-40a6b17bea05,2024-10-13,Neurology,Moderate,C50 - Breast Cancer,78,Government
+d1872490-72a8-4686-887a-7b169b1b2833,2024-05-10,Emergency,Moderate,C50 - Breast Cancer,50,Government
+bfde450b-0c57-41ef-af39-86f055f39890,2024-01-03,Oncology,Mild,E11 - Type 2 Diabetes,91,Government
+197d080f-02b5-4038-96ef-b30e0e3edc4d,2024-04-16,Oncology,Mild,S72 - Hip Fracture,81,Government
+2a8bf0b6-c9d1-4b1c-ae03-f139ba65367d,2024-10-21,Neurology,Mild,K21 - GERD,16,Private
+94a0bd1c-0bc8-48b6-b995-e16918794e21,2024-10-29,Oncology,Moderate,K21 - GERD,38,Government
+b6742b35-0306-4898-a40b-7f51d6b471bb,2024-03-12,Orthopedics,Mild,R07 - Chest Pain,53,Government
+731ad6f0-fb85-450e-a92d-fd06a8e68a9f,2024-07-09,Emergency,Moderate,K21 - GERD,86,Government
+a5a7bdbf-10e9-4932-9fa6-2286a5094b87,2024-03-17,Oncology,Mild,K21 - GERD,43,Government
+2320bb25-2f2a-4619-8077-48b32f91600c,2024-12-18,Emergency,Moderate,C50 - Breast Cancer,21,Government
+7dd28788-29e9-4cd7-97c7-3bf9c06064eb,2024-11-29,Pediatrics,Severe,C50 - Breast Cancer,18,Private
+83e2b3e0-ae33-4568-9e38-0bf989f28118,2024-10-02,Pediatrics,Mild,I10 - Hypertension,14,Government
+54e010d8-d236-4300-957d-dbbb8878af8c,2024-03-09,ICU,Moderate,J45 - Asthma,35,Government
