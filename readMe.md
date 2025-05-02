@@ -20,7 +20,7 @@ Forecast hospital resource demand (beds, ICU units, staff) and patient cost usin
                                └────┬─────────┘   └────┬───────┘
                                     ▼                  ▼
                             ┌────────────────┐   ┌───────────────┐
-                            │ Dash / Streamlit│ ◀▶│ REST API (Flask)│
+                            │ Dash / Airflow │ ◀▶│ REST API (Flask)│
                             │ Admin Dashboard │   └───────────────┘
                             └────────────────┘
 
