@@ -65,8 +65,9 @@ This project simulates the following datasets:
          docker compose up
 3. Access Apache Airflow
 
-   After your container is running: The Admin Portal is ran through Airflow, accessible on localhost:8080. User: admin, Password: admin. 
-   <img style="width:300px; height:220px;" alt="Apache Airflow Admin Login" src="airflow_screen.png"/>
+   After your container is running: The Admin Portal is ran through Airflow, accessible on localhost:8080. User: admin, Password: admin.
+<br>
+<img style="width:300px; height:220px;" alt="Apache Airflow Admin Login" src="airflow_screen.png"/>
 <br>
    If you receive an invalid login in airflow ( on the webserver ) run:
       
