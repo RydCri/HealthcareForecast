@@ -21,17 +21,13 @@ def init_gcs_client():
     return bucket
 
 
-def upload_blob(local_path, blob_name, content_type="text/csv"):
-    """
-    Uploads a file to GCS.
+bucket_name = os.getenv("GCS_BUCKET_NAME")
 
-    Args:
-        local_path (str): Path to the local file to upload.
-        blob_name (str): Desired name/path in the bucket (e.g. data/admissions/admissions_2025.csv).
-        content_type (str): MIME type for the file. Defaults to "text/csv".
-    """
-    bucket = init_gcs_client()
-    blob = bucket.blob(blob_name)
 
-    blob.upload_from_filename(local_path, content_type=content_type)
-    print(f"✅ Uploaded {local_path} to gs://{bucket.name}/{blob_name}")
+def upload_blob(source_file_name, destination_blob_name):
+    client = storage.Client()
+    bucket = client.bucket(bucket_name)
+    blob = bucket.blob(destination_blob_name)
+    blob.upload_from_filename(source_file_name)
+    print(f"Uploaded {source_file_name} to gs://{bucket_name}/{destination_blob_name}")
+
