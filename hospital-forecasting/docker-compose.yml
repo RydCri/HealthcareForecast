@@ -7,8 +7,11 @@ services:
       POSTGRES_USER: airflow
       POSTGRES_PASSWORD: airflow
       POSTGRES_DB: airflow
+#        - SLACK_WEBHOOK_URL=https://hooks.slack.com/services/XXX/YYY/ZZZ src/alerts/slack.py
+
     ports:
       - "5432:5432"
+
     volumes:
       - postgres-db-volume:/var/lib/postgresql/data
 
@@ -20,7 +23,7 @@ services:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
       AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "True"
-      PYTHONPATH: /opt/airflow/src:$PYTHONPATH
+      PYTHONPATH: ${PYTHONPATH}
     volumes:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
@@ -36,7 +39,8 @@ services:
     depends_on:
       - postgres
     environment:
-      PYTHONPATH: /opt/airflow/src:$PYTHONPATH
+      PYTHONPATH: ${PYTHONPATH}
+
     volumes:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
