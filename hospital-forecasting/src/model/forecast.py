@@ -3,7 +3,7 @@ import joblib
 from sqlalchemy import create_engine
 from google.cloud import bigquery
 from prophet.serialize import model_from_json
-from ..utils.paths import FORECAST_OUTPUT_PATH, MODELS_DIR
+from utils.paths import FORECAST_OUTPUT_PATH, MODELS_DIR
 
 def generate_and_store_forecast():
     # Load trained model
