@@ -4,10 +4,10 @@ from airflow.decorators import task
 from airflow.operators.empty import EmptyOperator
 from airflow.operators.python import BranchPythonOperator
 from datetime import datetime
-from src.model.train import train_model
-from src.model.forecast import generate_and_store_forecast
-from src.model.evaluate import evaluate_model_performance
-from src.alerts.slack import send_slack_alert
+from model.train import train_model
+from model.forecast import generate_and_store_forecast
+from model.evaluate import evaluate_model_performance
+from alerts.slack import send_slack_alert
 print("PYTHONPATH: LOOK HERE", sys.path)
 
 default_args = {
