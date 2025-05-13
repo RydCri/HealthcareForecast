@@ -3,7 +3,8 @@ from dotenv import load_dotenv
 from google.cloud import bigquery
 load_dotenv()
 
-def main():
+
+def load_to_bigquery():
     client = bigquery.Client()
 
     bucket = os.getenv("GCS_BUCKET")
