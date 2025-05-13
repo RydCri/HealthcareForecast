@@ -1,4 +1,4 @@
-version: "3"
+version: "3.8"
 
 services:
   postgres:
@@ -7,18 +7,38 @@ services:
       POSTGRES_USER: airflow
       POSTGRES_PASSWORD: airflow
       POSTGRES_DB: airflow
-#        - SLACK_WEBHOOK_URL=https://hooks.slack.com/services/XXX/YYY/ZZZ src/alerts/slack.py
-
     ports:
       - "5432:5432"
-
     volumes:
       - postgres-db-volume:/var/lib/postgresql/data
+  airflow-init:
+      image: apache/airflow:2.7.2
+      depends_on:
+        - postgres
+      env_file: .env
+      environment:
+        AIRFLOW__CORE__EXECUTOR: LocalExecutor
+        AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      volumes:
+        - ./dags:/opt/airflow/dags
+        - ./logs:/opt/airflow/logs
+        - ./plugins:/opt/airflow/plugins
+      command: >
+        command: >
+          bash -c "airflow db init && airflow users create 
+            --username admin 
+            --firstname Admin 
+            --lastname User 
+            --role Admin 
+            --email admin@example.com 
+            --password admin"
+  
 
   airflow-webserver:
-    image: apache/airflow:2.7.2
+    build: .  # use your custom Dockerfile
     depends_on:
       - postgres
+    env_file: .env
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
@@ -29,24 +49,30 @@ services:
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
       - ./include:/opt/airflow/include
-      - ./src:/opt/airflow/src
+      - ./src:/opt/airflow
+      - ./data:/opt/airflow/data
+      - ./models:/opt/airflow/models
     ports:
       - "8080:8080"
     command: webserver
 
   airflow-scheduler:
-    image: apache/airflow:2.7.2
+    build: .
     depends_on:
       - postgres
+    env_file: .env
     environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
       PYTHONPATH: ${PYTHONPATH}
-
     volumes:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
       - ./include:/opt/airflow/include
-      - ./src:/opt/airflow/src
+      - ./src:/opt/airflow
+      - ./data:/opt/airflow/data
+      - ./models:/opt/airflow/models
     command: scheduler
 
 volumes:
