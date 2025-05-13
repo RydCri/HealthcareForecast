@@ -1,0 +1,6 @@
+pandas
+faker
+joblib
+prophet
+sqlalchemy
+scikit-learn
