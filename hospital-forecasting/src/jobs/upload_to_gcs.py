@@ -1,6 +1,6 @@
 from google.cloud import storage
-from ..utils.paths import BASE_DIR, ADMISSIONS_DIR
-from ..utils.gcs import upload_blob
+from utils.paths import BASE_DIR, ADMISSIONS_DIR
+from utils.gcs import upload_blob
 import os
 
 
