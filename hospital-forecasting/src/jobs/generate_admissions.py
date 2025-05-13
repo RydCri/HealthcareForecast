@@ -2,7 +2,7 @@ import pandas as pd
 import random
 from faker import Faker
 from datetime import datetime, timedelta
-from ..utils.paths import ADMISSIONS_DIR
+from utils.paths import ADMISSIONS_DIR
 import uuid
 fake = Faker()
 

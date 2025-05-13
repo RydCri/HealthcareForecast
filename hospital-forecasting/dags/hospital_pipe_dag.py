@@ -3,9 +3,9 @@
 from datetime import datetime
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-from src.jobs.generate_admissions import generate_admissions_data
-from src.jobs.upload_to_gcs import upload_blob
-from src.jobs.load_to_bq import load_to_bigquery
+from jobs.generate_admissions import generate_patient_admission
+from jobs.upload_to_gcs import upload_blob
+from jobs.load_to_bq import load_to_bigquery
 
 with DAG(
         dag_id="hospital_resource_forecast",
@@ -18,7 +18,7 @@ with DAG(
 
     generate_task = PythonOperator(
         task_id="generate_admissions",
-        python_callable=generate_admissions_data,
+        python_callable=generate_patient_admission,
     )
 
     upload_task = PythonOperator(

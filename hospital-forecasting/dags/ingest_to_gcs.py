@@ -2,8 +2,8 @@ from datetime import datetime
 from airflow import DAG
 from airflow.decorators import task
 import pandas as pd
-from src.utils.paths import ADMISSIONS_DIR, BASE_DIR
-from src.utils.gcs import upload_blob
+from utils.paths import ADMISSIONS_DIR, BASE_DIR
+from utils.gcs import upload_blob
 import logging
 
 default_args = {

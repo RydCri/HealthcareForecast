@@ -2,7 +2,7 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime
-from src.model.forecast import generate_and_store_forecast
+from model.forecast import generate_and_store_forecast
 
 with DAG("generate_forecast",
          start_date=datetime(2023, 1, 1),
