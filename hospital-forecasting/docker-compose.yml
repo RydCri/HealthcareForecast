@@ -12,6 +12,7 @@ services:
     volumes:
       - postgres-db-volume:/var/lib/postgresql/data
   airflow-init:
+      build: .
       image: apache/airflow:2.7.2
       depends_on:
         - postgres
@@ -23,15 +24,21 @@ services:
         - ./dags:/opt/airflow/dags
         - ./logs:/opt/airflow/logs
         - ./plugins:/opt/airflow/plugins
+        - ./include:/opt/airflow/include
+        - ./src:/opt/airflow
+        - ./data:/opt/airflow/data
+        - ./models:/opt/airflow/models
       command: >
-        command: >
-          bash -c "airflow db init && airflow users create 
-            --username admin 
-            --firstname Admin 
-            --lastname User 
-            --role Admin 
-            --email admin@example.com 
-            --password admin"
+        bash -c "airflow db init &&
+        airflow users create \
+        --username admin \
+        --firstname FIRST_NAME \
+        --lastname LAST_NAME \
+        --role Admin \
+        --email admin@example.org \
+        --password admin"
+
+
   
 
   airflow-webserver:
