@@ -5,15 +5,21 @@ from datetime import datetime
 import pandas as pd
 from google.cloud import storage
 from sqlalchemy import create_engine
-
-# Load env vars from .env if needed
 from dotenv import load_dotenv
+
+# load vars from .env
 load_dotenv()
 
 BUCKET_NAME = os.getenv("GCS_BUCKET_NAME")
+SOURCE_BLOB = "data/admissions/admissions_2025.csv"  # no trailing / when fetching from GCS
 DEST_PATH = "/opt/airflow/include/admissions_2025.csv"
-SOURCE_BLOB = "admissions/admissions_2025.csv"
 GCP_CREDS_JSON = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
+
+POSTGRES_HOST = os.getenv("POSTGRES_HOST", "postgres")
+POSTGRES_PORT = os.getenv("POSTGRES_PORT", "5432")
+POSTGRES_DB = os.getenv("POSTGRES_DB", "airflow")
+POSTGRES_USER = os.getenv("POSTGRES_USER", "airflow")
+POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD", "airflow")
 
 def download_from_gcs():
     client = storage.Client.from_service_account_json(GCP_CREDS_JSON)
@@ -21,6 +27,14 @@ def download_from_gcs():
     blob = bucket.blob(SOURCE_BLOB)
     blob.download_to_filename(DEST_PATH)
     print(f"Downloaded {SOURCE_BLOB} to {DEST_PATH}")
+
+def load_into_postgres():
+    df = pd.read_csv(DEST_PATH)
+    engine = create_engine(
+        f"postgresql://{POSTGRES_USER}:{POSTGRES_PASSWORD}@{POSTGRES_HOST}:{POSTGRES_PORT}/{POSTGRES_DB}"
+    )
+    df.to_sql("admissions", engine, if_exists="replace", index=False)
+    print("Data loaded into Postgres!")
 
 default_args = {
     "owner": "airflow",
@@ -37,40 +51,13 @@ with DAG(
 ) as dag:
 
     ingest_task = PythonOperator(
-        task_id="download_admissions_from_gcs",
+        task_id="download_admissions_csv",
         python_callable=download_from_gcs,
     )
 
-    ingest_task
-
-
-POSTGRES_HOST = os.getenv("POSTGRES_HOST", "postgres")
-POSTGRES_PORT = os.getenv("POSTGRES_PORT", "5432")
-POSTGRES_DB = os.getenv("POSTGRES_DB", "airflow")
-POSTGRES_USER = os.getenv("POSTGRES_USER", "airflow")
-POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD", "airflow")
-
-
-
-def load_into_postgres():
-    df = pd.read_csv(DEST_PATH)
-
-    engine = create_engine(
-        f"postgresql://{os.getenv('POSTGRES_USER')}:{os.getenv('POSTGRES_PASSWORD')}"
-        f"@{os.getenv('POSTGRES_HOST')}:{os.getenv('POSTGRES_PORT')}/{os.getenv('POSTGRES_DB')}"
+    load_task = PythonOperator(
+        task_id="load_csv_into_postgres",
+        python_callable=load_into_postgres,
     )
 
-    df.to_sql("admissions", engine, if_exists="replace", index=False)
-    print("Data loaded into Postgres!")
-
-ingest_task = PythonOperator(
-    task_id="download_admissions_csv",
-    python_callable=download_from_gcs,
-)
-
-load_task = PythonOperator(
-    task_id="load_csv_into_postgres",
-    python_callable=load_into_postgres,
-)
-
-ingest_task >> load_task
+    ingest_task >> load_task
