@@ -22,9 +22,18 @@ POSTGRES_USER = os.getenv("POSTGRES_USER", "airflow")
 POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD", "airflow")
 
 def download_from_gcs():
+    print(f"GCP_CREDS_JSON: {GCP_CREDS_JSON}")
+    print(f"BUCKET_NAME: {BUCKET_NAME}")
+    print(f"SOURCE_BLOB: {SOURCE_BLOB}")
+    print(f"DEST_PATH: {DEST_PATH}")
+
     client = storage.Client.from_service_account_json(GCP_CREDS_JSON)
     bucket = client.bucket(BUCKET_NAME)
     blob = bucket.blob(SOURCE_BLOB)
+
+    if not blob.exists(client):
+        raise FileNotFoundError(f"The blob '{SOURCE_BLOB}' does not exist in bucket '{BUCKET_NAME}'")
+
     blob.download_to_filename(DEST_PATH)
     print(f"Downloaded {SOURCE_BLOB} to {DEST_PATH}")
 
