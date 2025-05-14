@@ -1,19 +1,22 @@
 import os
-from airflow import DAG
-from airflow.operators.python import PythonOperator
-from datetime import datetime
 import pandas as pd
-from google.cloud import storage
+from airflow import DAG
+from datetime import datetime
 from sqlalchemy import create_engine
 from dotenv import load_dotenv
+from airflow.operators.python import PythonOperator
+from airflow.providers.google.cloud.hooks.gcs import GCSHook
+from google.api_core.exceptions import Forbidden
 
 # load vars from .env
 load_dotenv()
 
 BUCKET_NAME = os.getenv("GCS_BUCKET_NAME")
 SOURCE_BLOB = "data/admissions/admissions_2025.csv"  # no trailing / when fetching from GCS
-DEST_PATH = "/opt/airflow/include/admissions_2025.csv"
-GCP_CREDS_JSON = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
+# DEST_PATH = "/opt/airflow/include/admissions_2025.csv"
+DEST_PATH = "/opt/airflow/data/admissions/admissions_2025.csv"
+
+# GCP_CREDS_JSON = os.getenv("GOOGLE_APPLICATION_CREDENTIALS") # Can be set manually in Airflow > Admin > Connections > google_cloud_default
 
 POSTGRES_HOST = os.getenv("POSTGRES_HOST", "postgres")
 POSTGRES_PORT = os.getenv("POSTGRES_PORT", "5432")
@@ -22,20 +25,17 @@ POSTGRES_USER = os.getenv("POSTGRES_USER", "airflow")
 POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD", "airflow")
 
 def download_from_gcs():
-    print(f"GCP_CREDS_JSON: {GCP_CREDS_JSON}")
-    print(f"BUCKET_NAME: {BUCKET_NAME}")
-    print(f"SOURCE_BLOB: {SOURCE_BLOB}")
-    print(f"DEST_PATH: {DEST_PATH}")
+    hook = GCSHook(gcp_conn_id="google_cloud_default")
+    client = hook.get_conn()
+    bucket = client.bucket("your-bucket-name")
+    blob = bucket.blob("admissions/admissions_2025.csv")
 
-    client = storage.Client.from_service_account_json(GCP_CREDS_JSON)
-    bucket = client.bucket(BUCKET_NAME)
-    blob = bucket.blob(SOURCE_BLOB)
+    try:
+        blob.download_to_filename("/opt/airflow/data/admissions/admissions_2025.csv")
+        print("File downloaded from GCS successfully")
+    except Forbidden as e:
+        raise AirflowException(f"GCS download failed: {e.message}")
 
-    if not blob.exists(client):
-        raise FileNotFoundError(f"The blob '{SOURCE_BLOB}' does not exist in bucket '{BUCKET_NAME}'")
-
-    blob.download_to_filename(DEST_PATH)
-    print(f"Downloaded {SOURCE_BLOB} to {DEST_PATH}")
 
 def load_into_postgres():
     df = pd.read_csv(DEST_PATH)
