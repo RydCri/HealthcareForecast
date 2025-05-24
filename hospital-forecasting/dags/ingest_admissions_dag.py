@@ -3,6 +3,7 @@ import pandas as pd
 from airflow import DAG
 from datetime import datetime
 from sqlalchemy import create_engine
+from utils.paths import ADMISSIONS_DIR
 from dotenv import load_dotenv
 from airflow.operators.python import PythonOperator
 from airflow.providers.google.cloud.hooks.gcs import GCSHook
@@ -11,12 +12,12 @@ from google.api_core.exceptions import Forbidden
 # load vars from .env
 load_dotenv()
 
-BUCKET_NAME = os.getenv("GCS_BUCKET_NAME")
+GCS_BUCKET = os.getenv("GCS_BUCKET_NAME")
 SOURCE_BLOB = "data/admissions/admissions_2025.csv"  # no trailing / when fetching from GCS
-# DEST_PATH = "/opt/airflow/include/admissions_2025.csv"
 DEST_PATH = "/opt/airflow/data/admissions/admissions_2025.csv"
 
-# GCP_CREDS_JSON = os.getenv("GOOGLE_APPLICATION_CREDENTIALS") # Can be set manually in Airflow > Admin > Connections > google_cloud_default
+# Can be set manually in Airflow > Admin > Connections > google_cloud_default
+# GCP_CREDS_JSON = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
 
 POSTGRES_HOST = os.getenv("POSTGRES_HOST", "postgres")
 POSTGRES_PORT = os.getenv("POSTGRES_PORT", "5432")
@@ -24,17 +25,28 @@ POSTGRES_DB = os.getenv("POSTGRES_DB", "airflow")
 POSTGRES_USER = os.getenv("POSTGRES_USER", "airflow")
 POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD", "airflow")
 
-def download_from_gcs():
-    hook = GCSHook(gcp_conn_id="google_cloud_default")
-    client = hook.get_conn()
-    bucket = client.bucket("your-bucket-name")
-    blob = bucket.blob("admissions/admissions_2025.csv")
+GCS_OBJECT = "admissions/admissions_2025.csv"
+LOCAL_TARGET = os.path.join(ADMISSIONS_DIR, "admissions_2025.csv")
 
+
+def download_from_gcs():
     try:
-        blob.download_to_filename("/opt/airflow/data/admissions/admissions_2025.csv")
-        print("File downloaded from GCS successfully")
+        hook = GCSHook(gcp_conn_id="google_cloud_default")
+        # client can use GCP_CREDS_JSON if preferred
+        client = hook.get_conn()
+        bucket = client.bucket(GCS_BUCKET)
+        blob = bucket.blob(GCS_OBJECT)
+
+        blob.download_to_filename(LOCAL_TARGET)
+        print("Downloaded from GCS successfully.")
+
     except Forbidden as e:
-        raise AirflowException(f"GCS download failed: {e.message}")
+        print(f"GCS download failed: 403 {e}")
+        # TODO: Using backup file if GCS triggers 403 ( billing acct issue )
+        if os.path.exists(LOCAL_TARGET):
+            print(f"Using local backup file at {LOCAL_TARGET}")
+        else:
+            raise AirflowException("Neither GCS download nor local backup is available.")
 
 
 def load_into_postgres():
@@ -44,6 +56,7 @@ def load_into_postgres():
     )
     df.to_sql("admissions", engine, if_exists="replace", index=False)
     print("Data loaded into Postgres!")
+
 
 default_args = {
     "owner": "airflow",
