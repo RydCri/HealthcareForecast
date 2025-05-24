@@ -42,7 +42,7 @@ services:
   
 
   airflow-webserver:
-    build: .  # use your custom Dockerfile
+    build: .
     depends_on:
       - postgres
     env_file: .env
@@ -51,8 +51,10 @@ services:
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
       AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "True"
       PYTHONPATH: ${PYTHONPATH}
+      GOOGLE_APPLICATION_CREDENTIALS: /keys/gcs_key.json
     volumes:
       - ./dags:/opt/airflow/dags
+      - ./keys:/opt/airflow/keys
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
       - ./include:/opt/airflow/include
@@ -72,9 +74,11 @@ services:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
       PYTHONPATH: ${PYTHONPATH}
+      GOOGLE_APPLICATION_CREDENTIALS: /keys/gcs_key.json
     volumes:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
+      - ./keys:/opt/airflow/keys
       - ./plugins:/opt/airflow/plugins
       - ./include:/opt/airflow/include
       - ./src:/opt/airflow
