@@ -95,7 +95,7 @@ This project simulates the following datasets:
 <br>
 Once logged in, you should see your DAGs under the DAGs tab.
 <br>
-<img style="width:300px; height:220px;" alt="Apache Airflow Admin Login" src="dag_screenshot.png"/>
+<img style="width:300px; height:220px;" alt="Apache Airflow Admin Login" src="airflow-dashboard.png"/>
 
 6. Trigger a DAG
 <br>
