@@ -55,6 +55,8 @@
 
 ### Setup Google Cloud Service
 
-For this project you will need a ( free ) Google Cloud api key. 
+This project was made with integration with GCS/BigQuery in mind, to enable these relevant DAGs you will need a ( free ) Google Cloud api key.
+These DAGs will be prefixed with gcs_ if you'd rather avoid this integration.
 
-[//]: # (TODO: explain schedular and other dags)
+
+[//]: # (TODO: GCS setup)
