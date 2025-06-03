@@ -22,6 +22,7 @@ def generate_doctors(n=20):
 
 
 # Call admission generator or use .csv to df pandas method
+
 def generate_procedures_billing(admissions_df, doctors):
     records = []
     for _, row in admissions_df.iterrows():
@@ -103,3 +104,15 @@ def generate_bed_occupancy(admissions_df):
                 'is_ICU': is_icu
             })
     return pd.DataFrame(occupancy_records)
+
+"""
+
+    # Example:
+    
+     admissions_df = generate_patient_admission()
+     doctors = generate_doctors()
+     procedures_df = generate_procedures_billing(admissions_df, doctors)
+     staffing_df = generate_staffing_schedule(days=30)
+     beds_df = generate_bed_occupancy(admissions_df)
+     
+"""
