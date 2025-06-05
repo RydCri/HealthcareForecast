@@ -153,7 +153,7 @@ default_args = {
 with DAG(
         dag_id="generate_hospital_data_dag",
         default_args=default_args,
-        schedule_interval=None,  # TODO: set daily
+        schedule_interval="@daily",
         catchup=False,
         tags=["mock", "hospital", "data"]
 ) as dag:
