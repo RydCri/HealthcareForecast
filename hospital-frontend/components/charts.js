@@ -1,8 +1,8 @@
 import Chart from 'chart.js/auto'
 
-const backend = '127.0.0.1:5000/'
+const backend = 'http://127.0.0.1:5000'
 export async function renderAdmissionsChart(ctx) {
-    const res = await fetch('/api/admissions/department')
+    const res = await fetch(`${backend}/api/admissions/department`)
     const { labels, datasets } = await res.json()
 
     new Chart(ctx, {
