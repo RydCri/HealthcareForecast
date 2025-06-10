@@ -4,6 +4,10 @@ This project simulates how a hospital might use data engineering and ETL pipelin
 <hr>
 Objective:
 Forecast hospital resource demand (beds, ICU units, staff) and patient cost using historical data. Provide analytics dashboards and ML-driven insights for hospital administrators.
+<br>
+<br>
+<img style="width:500px; height:320px;" alt="Hospital admissions analytics dashboard" src="admissions_analytics.png"/>
+
 <hr>
 
         ┌──────────────┐         ┌────────────────┐
